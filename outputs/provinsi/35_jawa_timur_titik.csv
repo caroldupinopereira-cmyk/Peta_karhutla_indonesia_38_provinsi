@@ -1,0 +1,21 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+1,-8.29335,114.29251,2026-11-07,0525,n,Kabupaten Banyuwangi,cocok
+2,-7.67911,113.96785,2026-11-07,0525,n,Kabupaten Situbondo,cocok
+3,-7.7451,113.83093,2026-11-07,0525,n,Kabupaten Situbondo,cocok
+4,-8.11633,112.92281,2026-11-07,0525,h,Kabupaten Malang,cocok
+5,-8.03788,114.25481,2026-11-07,0525,n,Kabupaten Banyuwangi,cocok
+364,-7.61616,112.66868,2026-11-07,0527,n,Kabupaten Pasuruan,cocok
+365,-7.62395,112.11103,2026-11-07,0527,n,Kabupaten Kediri,cocok
+366,-7.65493,111.87707,2026-11-07,0527,n,Kabupaten Nganjuk,cocok
+367,-7.56531,112.28848,2026-11-07,0527,n,Kabupaten Jombang,cocok
+368,-7.48314,112.36743,2026-11-07,0527,n,Kabupaten Jombang,cocok
+369,-7.48366,112.3635,2026-11-07,0527,n,Kabupaten Jombang,cocok
+370,-7.39544,112.65181,2026-11-07,0527,n,Kabupaten Sidoarjo,cocok
+371,-7.32914,112.7634,2026-11-07,0527,l,Kota Surabaya,cocok
+372,-7.08134,114.04799,2026-11-07,0527,l,Kabupaten Sumenep,cocok
+373,-6.91154,115.35061,2026-11-07,0527,n,Kabupaten Sumenep,cocok
+374,-7.25428,112.69428,2026-11-07,0527,n,Kota Surabaya,cocok
+375,-7.23558,112.70679,2026-11-07,0527,n,Kota Surabaya,cocok
+377,-7.24248,111.73363,2026-11-07,0527,n,Kabupaten Bojonegoro,cocok
+385,-6.97469,112.56519,2026-11-07,0527,n,Kabupaten Gresik,cocok
+407,-6.76818,111.96381,2026-11-07,0527,n,Kabupaten Tuban,cocok

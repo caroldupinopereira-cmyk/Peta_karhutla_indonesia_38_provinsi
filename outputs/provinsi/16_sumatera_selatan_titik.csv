@@ -1,0 +1,50 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+928,-3.44371,104.47821,2026-11-07,0707,n,Kabupaten Ogan Ilir,cocok
+929,-3.9575,104.90297,2026-11-07,0707,n,Kabupaten Ogan Komering Ulu Timur,cocok
+930,-3.93846,104.92192,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+931,-3.80987,105.26866,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+932,-3.81041,105.26541,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+933,-3.77722,105.39837,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+934,-3.75037,105.2994,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+935,-3.75147,105.29865,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+936,-3.61422,105.56209,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+937,-3.67467,104.94714,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+938,-3.74551,104.5155,2026-11-07,0707,n,Kabupaten Ogan Ilir,cocok
+939,-3.7405,104.51466,2026-11-07,0707,l,Kabupaten Ogan Ilir,cocok
+940,-3.58458,105.36133,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+941,-3.60302,104.69501,2026-11-07,0707,h,Kabupaten Ogan Komering Ilir,cocok
+942,-3.60253,104.69801,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+943,-3.59792,104.69421,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+944,-3.63399,104.38142,2026-11-07,0707,n,Kabupaten Muara Enim,cocok
+945,-3.41141,105.30594,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+946,-3.47246,104.45751,2026-11-07,0707,n,Kabupaten Ogan Ilir,cocok
+947,-3.46031,104.43789,2026-11-07,0707,n,Kabupaten Muara Enim,cocok
+948,-3.44324,104.48111,2026-11-07,0707,l,Kabupaten Ogan Ilir,cocok
+949,-3.27866,105.32536,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+950,-3.40486,104.52602,2026-11-07,0707,h,Kabupaten Ogan Ilir,cocok
+951,-3.27331,105.32452,2026-11-07,0707,n,Kabupaten Ogan Komering Ilir,cocok
+952,-3.38629,104.54422,2026-11-07,0707,n,Kabupaten Ogan Ilir,cocok
+963,-4.6852,103.9607,2026-11-07,0707,n,Kabupaten Ogan Komering Ulu Selatan,cocok
+973,-4.48897,104.04625,2026-11-07,0707,n,Kabupaten Ogan Komering Ulu Selatan,cocok
+987,-2.4656,103.48945,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+988,-2.54139,103.4435,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+989,-2.53323,103.64618,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+990,-2.53805,103.64696,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+991,-2.81577,103.81667,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+992,-2.81343,103.81942,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+993,-2.86812,103.78959,2026-11-07,0709,n,Kabupaten Musi Banyuasin,cocok
+994,-2.90397,104.23167,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+995,-2.90897,104.23245,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+996,-2.90804,104.23813,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+997,-2.90458,104.35431,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+998,-2.9729,104.37376,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+999,-2.98319,104.34265,2026-11-07,0709,n,Kabupaten Banyuasin,cocok
+1000,-3.19945,104.43277,2026-11-07,0709,n,Kabupaten Muara Enim,cocok
+1001,-3.29185,104.46404,2026-11-07,0709,n,Kabupaten Muara Enim,cocok
+1002,-3.17743,104.83479,2026-11-07,0709,n,Kabupaten Ogan Komering Ilir,cocok
+1003,-3.25476,104.15709,2026-11-07,0709,n,Kabupaten Penukal Abab Lematang Ilir,cocok
+1004,-3.17796,104.8317,2026-11-07,0709,n,Kabupaten Ogan Komering Ilir,cocok
+1005,-3.17667,104.83031,2026-11-07,0709,n,Kabupaten Ogan Komering Ilir,cocok
+1006,-3.42159,103.27641,2026-11-07,0709,n,Kabupaten Musi Rawas,cocok
+1008,-3.25385,104.16268,2026-11-07,0709,n,Kabupaten Penukal Abab Lematang Ilir,cocok
+1009,-3.31564,104.47672,2026-11-07,0709,n,Kabupaten Muara Enim,cocok

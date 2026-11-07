@@ -94,6 +94,8 @@ Peta dan tabel disimpan di `outputs/provinsi/`:
 
 Menjalankan ulang pengolahan memperbarui hasil terkait. Data sumber tidak diubah.
 
+Folder `outputs/` ikut disimpan di repositori GitHub agar peta dan tabel dapat dilihat atau diunduh tanpa menjalankan notebook. Hasil yang tersimpan merupakan snapshot pengolahan sebelumnya. Setelah mengubah data atau parameter, jalankan ulang analisis lalu commit hasil yang diperbarui.
+
 ## Metode dan interpretasi
 
 Koordinat menggunakan EPSG:4326, longitude sebagai X dan latitude sebagai Y. Geometri diperbaiki dengan `make_valid`, bagian nonpoligon dibuang, dan bagian poligon digabung kembali berdasarkan kode wilayah. Excel digabungkan ke provinsi memakai kode wilayah. Angka seperti `1.284,70` dibaca sebagai `1284.70`; baris Total tidak dianggap sebagai provinsi.

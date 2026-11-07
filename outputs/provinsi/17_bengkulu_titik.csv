@@ -1,0 +1,5 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+968,-4.75698,103.44136,2026-11-07,0707,n,Kabupaten Kaur,cocok
+972,-4.62037,103.38577,2026-11-07,0707,n,Kabupaten Kaur,cocok
+974,-4.62024,103.38694,2026-11-07,0707,n,Kabupaten Kaur,cocok
+977,-4.55133,103.34888,2026-11-07,0707,n,Kabupaten Kaur,cocok

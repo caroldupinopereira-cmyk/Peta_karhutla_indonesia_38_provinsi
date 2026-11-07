@@ -1,0 +1,65 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+100,-8.22608,130.9865,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+101,-8.17402,131.1046,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+104,-8.16101,131.03206,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+107,-8.13584,131.03221,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+108,-8.12977,131.03728,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+109,-8.11515,131.03181,2026-11-07,0525,l,Kabupaten Kepulauan Tanimbar,cocok
+113,-7.96683,131.23192,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+114,-7.97434,131.18925,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+115,-7.94934,131.24127,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+116,-7.92644,131.31052,2026-11-07,0525,l,Kabupaten Kepulauan Tanimbar,cocok
+117,-7.91083,131.27919,2026-11-07,0525,l,Kabupaten Kepulauan Tanimbar,cocok
+119,-7.88701,131.29364,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+120,-7.87783,131.28574,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+122,-7.885,131.2937,2026-11-07,0525,l,Kabupaten Kepulauan Tanimbar,cocok
+123,-7.87577,131.28575,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+124,-7.86848,131.2972,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+125,-7.86767,131.27148,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+126,-7.86822,131.26831,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+127,-7.86142,131.27687,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+128,-7.86197,131.27374,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+129,-7.85572,131.27914,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+130,-8.24122,129.01999,2026-11-07,0525,n,Kabupaten Maluku Barat Daya,cocok
+131,-7.84705,131.26817,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+134,-7.76223,131.41472,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+135,-7.74671,131.47073,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+136,-7.74627,131.47205,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+137,-7.72814,131.45265,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+138,-7.67391,131.57629,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+140,-7.5664,131.21391,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+142,-7.56453,131.21446,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+143,-7.56506,131.21138,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+144,-7.55884,131.21664,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+145,-7.55937,131.21358,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+146,-7.51184,131.06371,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+147,-7.41955,131.36592,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+148,-7.33224,131.64621,2026-11-07,0525,h,Kabupaten Kepulauan Tanimbar,cocok
+149,-7.33285,131.64279,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+150,-7.32629,131.64888,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+151,-6.82033,134.36588,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+152,-7.31988,131.62337,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+154,-7.24894,131.6321,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+155,-7.18426,131.96732,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+162,-7.12713,131.77425,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+165,-7.14607,131.60332,2026-11-07,0525,n,Kabupaten Kepulauan Tanimbar,cocok
+173,-6.53379,134.1069,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+174,-6.52656,134.11081,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+175,-6.52748,134.10585,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+182,-6.53019,134.10941,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+183,-6.53108,134.1044,2026-11-07,0525,n,Kabupaten Kepulauan Aru,cocok
+184,-6.52388,134.10829,2026-11-07,0525,h,Kabupaten Kepulauan Aru,cocok
+186,-7.54348,127.48166,2026-11-07,0525,n,Kabupaten Maluku Barat Daya,cocok
+217,-7.12449,128.62881,2026-11-07,0525,n,Kabupaten Maluku Barat Daya,cocok
+535,-3.0851,128.01918,2026-11-07,0527,n,Kabupaten Seram Bagian Barat,cocok
+543,-3.20174,127.00243,2026-11-07,0527,n,Kabupaten Buru,cocok
+544,-3.20235,126.99866,2026-11-07,0527,n,Kabupaten Buru,cocok
+545,-3.19819,126.99804,2026-11-07,0527,n,Kabupaten Buru,cocok
+547,-3.20046,126.99849,2026-11-07,0527,n,Kabupaten Buru,cocok
+550,-3.18131,127.03917,2026-11-07,0527,n,Kabupaten Buru,cocok
+562,-3.15534,126.72456,2026-11-07,0527,h,Kabupaten Buru,cocok
+563,-3.15411,126.73211,2026-11-07,0527,n,Kabupaten Buru,cocok
+564,-3.15474,126.72826,2026-11-07,0527,n,Kabupaten Buru,cocok
+569,-3.15124,126.72398,2026-11-07,0527,n,Kabupaten Buru,cocok
+570,-3.12207,126.82596,2026-11-07,0527,h,Kabupaten Buru,cocok
+574,-3.11935,126.825,2026-11-07,0527,n,Kabupaten Buru,cocok

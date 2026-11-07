@@ -1,0 +1,16 @@
+{
+  "tahun_luas": 2026,
+  "satuan": "satuan sumber belum diverifikasi",
+  "periode_titik_panas": "2026-11-07",
+  "provinsi": 38,
+  "geometri_awal_tidak_valid": 34,
+  "baris_csv": 1009,
+  "koordinat_valid": 1009,
+  "status_wilayah": {
+    "cocok": 1000,
+    "di luar batas poligon": 9
+  },
+  "provinsi_tanpa_luas": [],
+  "jumlah_luas_provinsi": 202010.96000000002,
+  "total_luas_excel": 202010.96
+}

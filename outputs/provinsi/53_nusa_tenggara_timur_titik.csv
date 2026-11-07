@@ -1,0 +1,129 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+8,-10.32293,123.85658,2026-11-07,0525,n,Kabupaten Kupang,cocok
+9,-10.2711,123.97471,2026-11-07,0525,n,Kabupaten Kupang,cocok
+10,-10.31676,123.61321,2026-11-07,0525,n,Kabupaten Kupang,cocok
+11,-10.24727,124.01815,2026-11-07,0525,n,Kabupaten Kupang,cocok
+12,-10.24783,124.01459,2026-11-07,0525,n,Kabupaten Kupang,cocok
+13,-10.24394,124.01763,2026-11-07,0525,n,Kabupaten Kupang,cocok
+14,-10.24449,124.01405,2026-11-07,0525,n,Kabupaten Kupang,cocok
+15,-10.23225,123.98297,2026-11-07,0525,l,Kabupaten Kupang,cocok
+16,-10.26524,123.57282,2026-11-07,0525,n,Kabupaten Kupang,cocok
+17,-10.12185,124.42394,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+18,-10.17527,124.02398,2026-11-07,0525,n,Kabupaten Kupang,cocok
+19,-10.23045,123.5342,2026-11-07,0525,n,Kabupaten Kupang,cocok
+20,-10.15412,124.00611,2026-11-07,0525,n,Kabupaten Kupang,cocok
+21,-10.16348,123.94575,2026-11-07,0525,n,Kabupaten Kupang,cocok
+22,-10.08101,124.43092,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+23,-10.08328,124.39442,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+24,-10.15953,123.90522,2026-11-07,0525,l,Kabupaten Kupang,cocok
+25,-10.07993,124.39384,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+26,-10.0805,124.39017,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+27,-10.1473,123.89605,2026-11-07,0525,n,Kabupaten Kupang,cocok
+28,-10.05347,124.45256,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+29,-10.10137,124.14702,2026-11-07,0525,n,Kabupaten Kupang,cocok
+30,-10.11678,123.91672,2026-11-07,0525,n,Kabupaten Kupang,cocok
+31,-10.14035,123.74322,2026-11-07,0525,n,Kabupaten Kupang,cocok
+32,-10.01464,124.47979,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+33,-10.0111,124.40438,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+34,-9.9847,124.48512,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+35,-10.03951,124.04525,2026-11-07,0525,n,Kabupaten Kupang,cocok
+36,-9.99103,124.31231,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+37,-9.98769,124.31172,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+39,-9.95347,124.35433,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+40,-9.88959,124.7148,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+41,-9.96706,124.13639,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+42,-9.98381,124.02945,2026-11-07,0525,l,Kabupaten Kupang,cocok
+43,-9.86352,124.72549,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+44,-9.93295,124.28802,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+45,-9.92845,124.27285,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+46,-9.90784,124.39165,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+47,-9.92638,124.27235,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+48,-10.00001,123.75273,2026-11-07,0525,n,Kabupaten Kupang,cocok
+49,-9.91239,124.27391,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+50,-9.93794,124.10962,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+51,-9.85719,124.51689,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+52,-9.79899,124.77631,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+53,-9.90116,124.10371,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+54,-9.79738,124.67647,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+55,-9.84232,124.39171,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+56,-9.77882,124.63997,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+57,-9.76499,124.68317,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+58,-9.7298,124.83768,2026-11-07,0525,n,Kabupaten Malaka,cocok
+59,-9.72977,124.83737,2026-11-07,0525,n,Kabupaten Malaka,cocok
+60,-9.79377,124.27248,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+61,-9.72995,124.65825,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+62,-9.71854,124.68658,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+63,-9.67593,124.60419,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+64,-9.6506,124.67587,2026-11-07,0525,n,Kab Timor Tengah Selatan,cocok
+65,-9.74777,123.759,2026-11-07,0525,n,Kabupaten Kupang,cocok
+66,-10.24742,120.3796,2026-11-07,0525,n,Kabupaten Sumba Timur,cocok
+67,-10.22531,120.50731,2026-11-07,0525,n,Kabupaten Sumba Timur,cocok
+68,-10.24681,120.35886,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+69,-9.57346,124.76223,2026-11-07,0525,n,Kabupaten Malaka,cocok
+70,-9.57389,124.67146,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+71,-9.55192,124.74388,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+72,-9.55401,124.52768,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+73,-9.54554,124.53749,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+74,-9.67681,123.69247,2026-11-07,0525,n,Kabupaten Kupang,cocok
+75,-9.50636,124.76527,2026-11-07,0525,n,Kabupaten Malaka,cocok
+76,-9.54216,124.53693,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+77,-9.44426,125.02542,2026-11-07,0525,n,Kabupaten Malaka,cocok
+78,-9.44925,124.97169,2026-11-07,0525,l,Kabupaten Malaka,cocok
+79,-9.5174,124.51786,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+80,-9.45166,124.77955,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+81,-9.45307,124.74876,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+82,-9.45367,124.74499,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+83,-9.58226,123.81841,2026-11-07,0525,n,Kabupaten Kupang,cocok
+84,-9.49665,124.34229,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+85,-9.40196,124.87131,2026-11-07,0525,l,Kabupaten Malaka,cocok
+86,-9.4428,124.5883,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+87,-9.42199,124.54362,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+88,-9.36574,124.83457,2026-11-07,0525,l,Kabupaten Malaka,cocok
+89,-9.43365,124.38091,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+90,-9.41884,124.45325,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+91,-9.40284,124.53293,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+92,-9.39947,124.5323,2026-11-07,0525,l,Kabupaten Timor Tengah Utara,cocok
+93,-9.39839,124.51715,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+94,-9.32826,124.89384,2026-11-07,0525,n,Kabupaten Belu,cocok
+95,-9.3183,124.93433,2026-11-07,0525,n,Kabupaten Belu,cocok
+96,-9.30453,124.77882,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+97,-9.30457,124.77849,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+98,-9.32047,124.58772,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+99,-9.30998,124.49939,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+102,-9.28472,124.48353,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+103,-9.18253,125.08257,2026-11-07,0525,n,Kabupaten Belu,cocok
+105,-9.86672,120.46841,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+106,-9.22056,124.57613,2026-11-07,0525,n,Kabupaten Timor Tengah Utara,cocok
+110,-9.7704,120.25835,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+111,-9.78358,120.16569,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+112,-9.78139,120.16171,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+118,-9.69557,120.20286,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+121,-9.68047,120.08595,2026-11-07,0525,n,Kabupaten Sumba Timur,cocok
+132,-9.62486,120.19315,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+133,-9.62114,120.09332,2026-11-07,0525,l,Kabupaten Sumba Timur,cocok
+139,-9.45962,120.06548,2026-11-07,0525,n,Kabupaten Sumba Timur,cocok
+141,-9.42004,119.75547,2026-11-07,0525,n,Kabupaten Sumba Tengah,cocok
+156,-8.43269,124.46345,2026-11-07,0525,n,Kabupaten Alor,cocok
+157,-8.46136,124.06089,2026-11-07,0525,n,Kabupaten Alor,cocok
+158,-8.45799,124.06036,2026-11-07,0525,l,Kabupaten Alor,cocok
+159,-8.36588,124.59855,2026-11-07,0525,n,Kabupaten Alor,cocok
+160,-8.43109,124.11112,2026-11-07,0525,n,Kabupaten Alor,cocok
+161,-8.32915,124.63088,2026-11-07,0525,n,Kabupaten Alor,cocok
+163,-8.40524,124.05544,2026-11-07,0525,n,Kabupaten Alor,cocok
+164,-8.38833,124.14169,2026-11-07,0525,n,Kabupaten Alor,cocok
+166,-8.57454,122.9157,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+168,-8.56642,122.9466,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+169,-8.57123,122.9152,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+170,-8.33874,124.3918,2026-11-07,0525,n,Kabupaten Alor,cocok
+171,-8.42771,123.53719,2026-11-07,0525,n,Kabupaten Lembata,cocok
+172,-8.74873,121.37623,2026-11-07,0525,n,Kabupaten Nagekeo,cocok
+176,-8.55656,122.05244,2026-11-07,0525,n,Kabupaten Sikka,cocok
+177,-8.15735,124.58701,2026-11-07,0525,n,Kabupaten Alor,cocok
+178,-8.15393,124.58643,2026-11-07,0525,n,Kabupaten Alor,cocok
+179,-8.19592,124.2783,2026-11-07,0525,n,Kabupaten Alor,cocok
+180,-8.42024,122.81651,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+181,-8.13406,124.57955,2026-11-07,0525,n,Kabupaten Alor,cocok
+185,-8.48469,121.94415,2026-11-07,0525,n,Kabupaten Ende,cocok
+206,-8.099,122.87508,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+208,-8.09569,122.87457,2026-11-07,0525,n,Kabupaten Flores Timur,cocok
+211,-8.09558,122.8532,2026-11-07,0525,n,Kabupaten Flores Timur,cocok

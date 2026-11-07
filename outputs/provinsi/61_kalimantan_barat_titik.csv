@@ -1,0 +1,5 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+255,-1.2965,110.56631,2026-11-07,0527,n,Kabupaten Ketapang,cocok
+910,0.71813,112.36023,2026-11-07,0529,n,Kabupaten Kapuas Hulu,cocok
+911,0.71885,112.35882,2026-11-07,0529,n,Kabupaten Kapuas Hulu,cocok
+915,0.01162,110.15583,2026-11-07,0529,n,Kabupaten Sanggau,cocok

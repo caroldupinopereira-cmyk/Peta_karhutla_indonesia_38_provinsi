@@ -1,6 +1,3 @@
-# Hasil analisis yang dapat dibuat ulang
-outputs/
-
 # Cache Python dan Jupyter
 __pycache__/
 *.py[cod]

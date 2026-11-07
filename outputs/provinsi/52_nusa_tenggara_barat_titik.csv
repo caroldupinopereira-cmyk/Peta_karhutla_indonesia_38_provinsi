@@ -1,0 +1,62 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+187,-8.93253,117.88728,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+188,-8.93044,117.87273,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+189,-8.9264,117.87231,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+190,-8.92189,117.87547,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+191,-8.92384,117.86117,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+192,-8.92645,117.8605,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+193,-8.92034,117.87445,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+194,-8.76327,118.71838,2026-11-07,0525,l,Kabupaten Bima,cocok
+195,-8.71881,118.9744,2026-11-07,0525,l,Kabupaten Bima,cocok
+196,-8.75693,118.62671,2026-11-07,0525,n,Kabupaten Bima,cocok
+197,-8.70138,118.96278,2026-11-07,0525,l,Kabupaten Bima,cocok
+199,-8.71121,118.86675,2026-11-07,0525,l,Kabupaten Bima,cocok
+200,-8.7547,118.53213,2026-11-07,0525,l,Kabupaten Bima,cocok
+201,-8.70203,118.82293,2026-11-07,0525,l,Kabupaten Bima,cocok
+202,-8.70268,118.81838,2026-11-07,0525,n,Kabupaten Bima,cocok
+203,-8.72679,118.64712,2026-11-07,0525,l,Kabupaten Bima,cocok
+204,-8.69824,118.82253,2026-11-07,0525,l,Kabupaten Bima,cocok
+205,-8.69889,118.81792,2026-11-07,0525,l,Kabupaten Bima,cocok
+207,-8.68865,118.8634,2026-11-07,0525,l,Kabupaten Bima,cocok
+209,-8.7774,118.19958,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+210,-8.77811,118.19441,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+212,-8.67828,118.87842,2026-11-07,0525,l,Kabupaten Bima,cocok
+213,-8.77787,118.19704,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+214,-8.64816,118.97965,2026-11-07,0525,l,Kabupaten Bima,cocok
+215,-8.63612,119.00991,2026-11-07,0525,l,Kabupaten Bima,cocok
+216,-8.78722,117.93681,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+218,-8.62093,118.87717,2026-11-07,0525,l,Kabupaten Bima,cocok
+219,-8.61098,118.91985,2026-11-07,0525,l,Kabupaten Bima,cocok
+220,-8.60466,118.91066,2026-11-07,0525,l,Kabupaten Bima,cocok
+221,-8.59491,118.84447,2026-11-07,0525,l,Kabupaten Bima,cocok
+222,-8.5473,118.99228,2026-11-07,0525,n,Kabupaten Bima,cocok
+223,-8.54605,118.98945,2026-11-07,0525,l,Kabupaten Bima,cocok
+224,-8.8903,116.34943,2026-11-07,0525,n,Kabupaten Lombok Tengah,cocok
+225,-8.67909,117.43777,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+226,-8.86885,116.00224,2026-11-07,0525,n,Kabupaten Lombok Barat,cocok
+227,-8.45266,118.97732,2026-11-07,0525,l,Kabupaten Bima,cocok
+228,-8.67811,117.32197,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+229,-8.61773,117.73363,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+230,-8.66757,117.36835,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+231,-8.68018,117.3222,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+232,-8.61691,117.73298,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+233,-8.61237,117.73595,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+234,-8.66517,117.36811,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+235,-8.38863,118.90923,2026-11-07,0525,n,Kabupaten Bima,cocok
+236,-8.3676,118.84213,2026-11-07,0525,n,Kabupaten Bima,cocok
+237,-8.3307,118.96856,2026-11-07,0525,l,Kabupaten Bima,cocok
+238,-8.56095,117.34161,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+239,-8.20681,119.10692,2026-11-07,0525,l,Kabupaten Bima,cocok
+240,-8.20253,119.11053,2026-11-07,0525,l,Kabupaten Bima,cocok
+241,-8.43506,117.17116,2026-11-07,0525,n,Kabupaten Sumbawa,cocok
+242,-8.16822,117.62076,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+243,-8.16874,117.61714,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+244,-8.15258,117.55661,2026-11-07,0525,l,Kabupaten Sumbawa,cocok
+245,-8.25693,116.49065,2026-11-07,0525,n,Kabupaten Lombok Timur,cocok
+246,-8.25204,116.49404,2026-11-07,0525,n,Kabupaten Lombok Timur,cocok
+247,-8.2526,116.48988,2026-11-07,0525,n,Kabupaten Lombok Timur,cocok
+248,-8.25553,116.4919,2026-11-07,0525,n,Kabupaten Lombok Timur,cocok
+249,-8.23908,116.45115,2026-11-07,0525,l,Kabupaten Lombok Utara,cocok
+250,-8.23967,116.44695,2026-11-07,0525,n,Kabupaten Lombok Utara,cocok
+251,-8.23475,116.45033,2026-11-07,0525,n,Kabupaten Lombok Utara,cocok
+252,-8.25816,116.28391,2026-11-07,0525,n,Kabupaten Lombok Utara,cocok

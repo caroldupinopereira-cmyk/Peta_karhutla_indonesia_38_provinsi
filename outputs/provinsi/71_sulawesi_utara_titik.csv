@@ -1,0 +1,6 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+289,0.84014,123.82124,2026-11-07,0527,n,Kabupaten Bolaang Mongondow,cocok
+294,0.81905,123.54276,2026-11-07,0527,n,Kabupaten Bolaang Mongondow Utara,cocok
+296,0.83617,123.59059,2026-11-07,0527,n,Kabupaten Bolaang Mongondow Utara,cocok
+298,0.85226,123.4558,2026-11-07,0527,n,Kabupaten Bolaang Mongondow Utara,cocok
+305,0.93916,123.21989,2026-11-07,0527,n,Kabupaten Bolaang Mongondow Utara,cocok

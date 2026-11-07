@@ -1,0 +1,117 @@
+id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+301,0.39126,120.18812,2026-11-07,0527,n,Kabupaten Parigi Moutong,cocok
+302,0.39073,120.18462,2026-11-07,0527,n,Kabupaten Parigi Moutong,cocok
+326,0.89304,120.85115,2026-11-07,0527,n,Kabupaten Toli-Toli,cocok
+327,0.88654,120.76424,2026-11-07,0527,n,Kabupaten Toli-Toli,cocok
+328,1.03602,121.52019,2026-11-07,0527,n,Kabupaten Buol,cocok
+355,1.09251,121.42526,2026-11-07,0527,n,Kabupaten Buol,cocok
+359,1.10237,121.44519,2026-11-07,0527,n,Kabupaten Buol,cocok
+360,1.12117,121.45667,2026-11-07,0527,n,Kabupaten Buol,cocok
+583,-3.60103,123.14255,2026-11-07,0527,n,Kabupaten Morowali,cocok
+655,-2.91107,121.80682,2026-11-07,0527,n,Kabupaten Morowali,cocok
+656,-2.83348,122.18132,2026-11-07,0527,l,Kabupaten Morowali,cocok
+657,-2.83122,122.17387,2026-11-07,0527,n,Kabupaten Morowali,cocok
+659,-2.8239,122.15498,2026-11-07,0527,l,Kabupaten Morowali,cocok
+673,-2.78304,121.77951,2026-11-07,0527,n,Kabupaten Morowali,cocok
+675,-2.77973,121.77901,2026-11-07,0527,n,Kabupaten Morowali,cocok
+697,-2.314,121.7624,2026-11-07,0527,n,Kabupaten Morowali,cocok
+698,-2.31717,121.7417,2026-11-07,0527,n,Kabupaten Morowali,cocok
+699,-2.29739,121.67172,2026-11-07,0527,n,Kabupaten Morowali,cocok
+700,-2.2099,121.64396,2026-11-07,0527,n,Kabupaten Morowali,cocok
+701,-2.25694,121.2921,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+702,-2.25746,121.28866,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+703,-2.25799,121.28521,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+704,-2.25363,121.2916,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+705,-2.25415,121.28815,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+707,-2.17468,121.49692,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+708,-2.1719,121.49299,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+714,-2.0554,121.34477,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+715,-2.06311,121.2721,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+716,-2.08777,121.11063,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+717,-2.06032,121.26817,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+718,-2.04285,121.36045,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+719,-2.05282,121.29517,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+720,-2.05334,121.29173,2026-11-07,0527,l,Kabupaten Morowali Utara,cocok
+721,-2.05649,121.2711,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+722,-2.05004,121.29124,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+723,-2.05056,121.2878,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+724,-2.05161,121.28092,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+725,-2.05093,121.26323,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+726,-2.05145,121.2598,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+727,-2.04762,121.26274,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+728,-2.04814,121.2593,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+730,-2.04484,121.2588,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+734,-2.01144,121.43308,2026-11-07,0527,l,Kabupaten Morowali Utara,cocok
+735,-2.01354,121.41934,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+736,-2.00813,121.43259,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+737,-2.02165,121.3221,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+760,-1.96315,121.01653,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+761,-1.98673,120.86167,2026-11-07,0527,n,Kabupaten Poso,cocok
+762,-1.94629,121.01357,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+763,-1.59371,123.23326,2026-11-07,0527,n,Kabupaten Banggai Kepulauan,cocok
+764,-1.84335,121.53262,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+765,-1.93436,120.89219,2026-11-07,0527,n,Kabupaten Poso,cocok
+766,-1.92581,120.92601,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+767,-1.91725,120.95995,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+768,-1.91778,120.9565,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+769,-1.79092,121.7647,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+770,-1.91394,120.95944,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+771,-1.91447,120.956,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+772,-1.78761,121.76421,2026-11-07,0527,l,Kabupaten Morowali Utara,cocok
+773,-1.78814,121.76076,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+774,-1.7815,121.75975,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+775,-1.78203,121.75629,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+776,-1.86792,121.06158,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+777,-1.86844,121.05814,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+779,-1.8781,120.88365,2026-11-07,0527,n,Kabupaten Poso,cocok
+780,-1.87427,120.88662,2026-11-07,0527,n,Kabupaten Poso,cocok
+781,-1.87479,120.88316,2026-11-07,0527,n,Kabupaten Poso,cocok
+782,-1.87532,120.87971,2026-11-07,0527,n,Kabupaten Poso,cocok
+783,-1.87096,120.88612,2026-11-07,0527,n,Kabupaten Poso,cocok
+784,-1.87148,120.88268,2026-11-07,0527,n,Kabupaten Poso,cocok
+785,-1.87201,120.87923,2026-11-07,0527,n,Kabupaten Poso,cocok
+786,-1.87253,120.8758,2026-11-07,0527,n,Kabupaten Poso,cocok
+787,-1.74371,121.69661,2026-11-07,0527,l,Kabupaten Morowali Utara,cocok
+788,-1.86811,120.88148,2026-11-07,0527,n,Kabupaten Poso,cocok
+789,-1.49468,123.24091,2026-11-07,0527,n,Kabupaten Banggai Kepulauan,cocok
+790,-1.85348,120.8442,2026-11-07,0527,n,Kabupaten Poso,cocok
+791,-1.46196,123.24732,2026-11-07,0527,n,Kabupaten Banggai Kepulauan,cocok
+792,-1.45851,123.2468,2026-11-07,0527,n,Kabupaten Banggai Kepulauan,cocok
+793,-1.66735,121.75227,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+794,-1.60357,122.12359,2026-11-07,0527,n,Kabupaten Banggai,cocok
+795,-1.48248,122.84187,2026-11-07,0527,n,Kabupaten Banggai Kepulauan,cocok
+796,-1.61977,121.92953,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+797,-1.57681,122.09791,2026-11-07,0527,n,Kabupaten Banggai,cocok
+798,-1.59509,121.97929,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+799,-1.59991,121.94794,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+800,-1.60045,121.94445,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+801,-1.42161,122.39882,2026-11-07,0527,n,Kabupaten Banggai,cocok
+802,-1.4198,122.39793,2026-11-07,0527,n,Kabupaten Banggai,cocok
+803,-1.48603,121.85081,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+804,-1.39693,122.41264,2026-11-07,0527,n,Kabupaten Banggai,cocok
+805,-1.39747,122.4091,2026-11-07,0527,n,Kabupaten Banggai,cocok
+806,-1.46502,121.85492,2026-11-07,0527,n,Kabupaten Morowali Utara,cocok
+807,-1.37777,122.38055,2026-11-07,0527,n,Kabupaten Banggai,cocok
+810,-1.35504,122.43909,2026-11-07,0527,n,Kabupaten Banggai,cocok
+811,-1.51763,121.11223,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+816,-1.54678,120.40739,2026-11-07,0527,n,Kabupaten Poso,cocok
+817,-1.52437,120.44325,2026-11-07,0527,n,Kabupaten Poso,cocok
+818,-1.5249,120.4397,2026-11-07,0527,n,Kabupaten Poso,cocok
+819,-1.44014,120.95187,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+821,-1.231,121.58788,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+824,-1.21749,121.56408,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+826,-1.20875,121.57699,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+827,-1.20928,121.57352,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+828,-1.20913,121.55226,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+829,-1.20476,121.55869,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+834,-1.11558,121.49871,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+836,-1.04858,121.87144,2026-11-07,0527,n,Kabupaten Banggai,cocok
+837,-1.04525,121.87094,2026-11-07,0527,n,Kabupaten Banggai,cocok
+838,-0.87082,122.99272,2026-11-07,0527,n,Kabupaten Banggai,cocok
+839,-0.86226,123.02578,2026-11-07,0527,n,Kabupaten Banggai,cocok
+840,-0.86283,123.02205,2026-11-07,0527,n,Kabupaten Banggai,cocok
+841,-1.09465,121.50262,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+842,-1.09645,121.44642,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+844,-1.01453,121.82694,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+850,-1.05232,121.44692,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
+855,-0.99437,121.6924,2026-11-07,0527,n,Kabupaten Tojo Una Una,cocok
