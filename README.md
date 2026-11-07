@@ -2,6 +2,21 @@
 
 Proyek GeoPandas untuk memetakan titik panas, menggabungkan luas karhutla per provinsi, dan menentukan kabupaten/kota tempat setiap deteksi berada. Notebook menyediakan satu sel khusus untuk masing-masing dari 38 provinsi.
 
+## Identifikasi tahun dan periode data
+
+**Hasil analisis yang disimpan saat ini menggunakan tahun luas karhutla 2026 dan deteksi titik panas tanggal 7 November 2026.**
+
+| Data | Tahun atau periode | Dasar identifikasi |
+| --- | --- | --- |
+| Titik panas VIIRS | 7 November 2026 (`2026-11-07`) | Kolom `acq_date` pada CSV; 1.009 deteksi pada satu tanggal |
+| Luas karhutla yang dipetakan | Kolom tahun 2026 | Parameter `TAHUN = 2026` pada notebook dan `tahun_luas` pada `outputs/validasi.json` |
+| Riwayat luas yang tersedia | 2018–2026 | Kolom tahun pada Excel; belum seluruhnya dipetakan |
+| Batas provinsi dan kabupaten/kota | Tahun referensi batas belum diverifikasi | Jumlah wilayah pada GeoJSON tidak cukup untuk memastikan tahun penerbitan atau pemutakhiran batas |
+
+Peringkat titik panas menunjukkan kondisi deteksi **pada 7 November 2026**, bukan akumulasi seluruh tahun 2026. Peringkat luas memakai nilai pada **kolom 2026** di Excel; tanggal pemutakhiran belum diketahui, sehingga tidak dinyatakan sebagai total satu tahun penuh. Kedua ukuran tidak memiliki periode pengamatan yang sama.
+
+Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang tersedia. Untuk mengganti periode titik panas, gunakan CSV dengan tanggal pengamatan yang diinginkan dan ubah parameter `CSV`. Setelah alur pengolahan nasional dapat dijalankan kembali, perbarui hasil analisis dan periksa `outputs/validasi.json` agar tahun serta tanggal pada dokumentasi tetap sesuai.
+
 ## File proyek
 
 | File | Kegunaan |
