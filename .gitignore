@@ -1,0 +1,19 @@
+# Hasil analisis yang dapat dibuat ulang
+outputs/
+
+# Cache Python dan Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Lingkungan lokal dan rahasia
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Konfigurasi editor dan sistem
+.vscode/
+.DS_Store
+Thumbs.db
