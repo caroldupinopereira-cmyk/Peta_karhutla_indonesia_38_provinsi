@@ -6,7 +6,7 @@ Proyek GeoPandas untuk memetakan titik panas, menggabungkan luas karhutla per pr
 
 ### Peta nasional
 
-Panel atas menampilkan deteksi titik panas tanggal **7 November 2026**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel, dengan satuan yang masih perlu dikonfirmasi.
+Panel atas menampilkan deteksi titik panas tanggal **7 November 2026**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel. Sumber SIPONGI menyajikan luas dalam **hektare (ha)**; gambar hasil sebelumnya masih memakai label satuan belum diverifikasi dan belum dibuat ulang.
 
 ![Peta nasional titik panas 7 November 2026 dan luas karhutla kolom tahun 2026](outputs/peta_karhutla.png)
 
@@ -40,11 +40,13 @@ Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang
 | `fire_nrt_J1V-C2_840207.csv` | [NASA FIRMS — unduhan active fire](https://firms.modaps.eosdis.nasa.gov/active_fire/) | Sumber diidentifikasi dari `Readme.txt` yang menyertai CSV. File memuat instrumen VIIRS, satelit N20, dan tanggal pengamatan 7 November 2026. |
 | `provinsi.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 38 provinsi. Metadata file mencantumkan generator [Peta Nusa](https://petanusa.web.id) v1.0, tanggal pembuatan 16 Februari 2026, dan referensi Kepmendagri No 300.2.2-2138 Tahun 2025. |
 | `kab_kota.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 514 kabupaten/kota, dengan sumber, generator, tanggal pembuatan, dan referensi administrasi yang sama menurut metadata file. |
-| `luas-karhutla-provinsi.xlsx` | **Sumber unduhan belum dikonfirmasi** | File yang disediakan pengguna memuat luas karhutla per provinsi untuk 2018–2026. Tautan penerbit, satuan, dan tanggal pemutakhiran tidak ditemukan pada tabel atau metadata workbook yang diperiksa. |
+| `luas-karhutla-provinsi.xlsx` | [SIPONGI KEMENHUT — Indikasi Luas Kebakaran](https://sipongi.gakkum.kehutanan.go.id/indikasi-luas-kebakaran) | Sumber unduhan dikonfirmasi oleh pengguna. Excel memuat kolom 2018–2026; situs sumber menyajikan luas dalam hektare (ha). Tanggal pemutakhiran berkas lokal belum diketahui. |
 
 Panduan atribut data NASA tersedia pada [NASA FIRMS Readme](https://firms.modaps.eosdis.nasa.gov/download/Readme.txt). Kredit sumber batas wilayah mengacu pada metadata file dan dokumentasi repositori: [Creasi.co / Laravel Nusa](https://github.com/creasico/laravel-nusa). Metadata GeoJSON menyatakan lisensi MIT dan menunjuk ke [lisensi sumber](https://github.com/creasico/laravel-nusa/blob/main/LICENSE).
 
-Alamat sumber Excel perlu ditambahkan setelah dikonfirmasi dari tempat unduh aslinya. Nama file saja tidak cukup untuk menetapkan penerbit dataset. Tanggal pengamatan, tanggal pembuatan file batas, dan tahun referensi administrasi merupakan informasi yang berbeda.
+**Atribusi data luas karhutla: SIPONGI KEMENHUT.** Situs sumber meminta pencantuman atribusi tersebut untuk penggunaan datanya.
+
+Pada pemeriksaan 8 November 2026, halaman SIPONGI menyebut periode Januari–Juli 2026 dengan total 202.004,30 ha, sedangkan total kolom 2026 pada Excel lokal adalah 202.010,96 ha. Karena terdapat perbedaan, periode Januari–Juli tidak otomatis diterapkan ke berkas lokal. Data Excel tetap dipertahankan dan tanggal pemutakhirannya perlu dicocokkan dengan versi unduhan asli. Tanggal pengamatan, tanggal pembuatan file batas, dan tahun referensi administrasi merupakan informasi yang berbeda.
 
 ## File proyek
 
@@ -101,7 +103,7 @@ Folder kerja harus merupakan folder proyek. Jalankan sel persiapan bersama pada 
 8. Warna wilayah dan peringkat provinsi.
 9. Persiapan kabupaten/kota dan 38 sel khusus provinsi.
 
-`TAHUN` memilih kolom luas di Excel, bukan tanggal pengamatan CSV. `SATUAN` tetap belum diverifikasi sampai satuan sumber dikonfirmasi; isi `ha` hanya jika sumber menyatakan hektare.
+`TAHUN` memilih kolom luas di Excel, bukan tanggal pengamatan CSV. Sumber SIPONGI menyajikan luas dalam hektare, sehingga `SATUAN` dapat diisi `ha`. Notebook dan gambar hasil sebelumnya masih dapat memuat label satuan belum diverifikasi; label baru akan muncul setelah parameter diubah dan analisis dijalankan ulang.
 
 ## Output setiap provinsi
 
@@ -165,7 +167,7 @@ CSV awal memuat 1.009 deteksi pada 7 November 2026. Pemeriksaan sebelumnya mengh
 
 Jumlah deteksi bukan jumlah kejadian kebakaran atau luas terbakar. Titik panas belum membuktikan kebakaran pada tutupan hutan; analisis itu memerlukan data tutupan lahan. Data luas kabupaten tidak tersedia, sehingga perbandingan kabupaten menggunakan jumlah deteksi pada tanggal CSV.
 
-Satuan dan tanggal pemutakhiran luas belum dikonfirmasi dari tabel Excel. Kolom 2026 tidak otomatis berarti data satu tahun penuh. Nol deteksi pada satu tanggal tidak berarti bebas kebakaran. Nilai nol pada sumber tetap dipertahankan; perbandingan historis perlu memperhatikan pemekaran dan perubahan batas provinsi.
+Satuan luas pada situs SIPONGI adalah hektare (ha), tetapi tanggal pemutakhiran Excel lokal belum diketahui. Kolom 2026 tidak otomatis berarti data satu tahun penuh. Nol deteksi pada satu tanggal tidak berarti bebas kebakaran. Nilai nol pada sumber tetap dipertahankan; perbandingan historis perlu memperhatikan pemekaran dan perubahan batas provinsi.
 
 ## Referensi metode
 
