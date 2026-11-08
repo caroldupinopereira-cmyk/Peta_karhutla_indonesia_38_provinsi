@@ -92,6 +92,21 @@ Peta dan tabel disimpan di `outputs/provinsi/`:
 - `<kode>_<nama_provinsi>_ringkasan.csv`: jumlah deteksi per kabupaten/kota.
 - `<kode>_<nama_provinsi>_titik.csv`: rincian lokasi titik panas.
 
+## Cara membaca keterangan pada peta provinsi
+
+Keterangan di bawah peta menjelaskan periode pengamatan, jumlah deteksi, dan batas informasi yang tersedia:
+
+| Keterangan | Artinya |
+| --- | --- |
+| `Tanggal deteksi: 2026-11-07` | Titik berasal dari pengamatan satelit pada **7 November 2026**, bukan akumulasi seluruh tahun. |
+| `Angka dalam kurung pada legenda adalah jumlah deteksi` | Contoh **Kabupaten Konawe (49)** berarti ada 49 deteksi titik panas yang cocok dengan wilayah Konawe pada tanggal data. Angka ini bukan jumlah kejadian kebakaran yang berbeda. |
+| `Arsir semakin gelap: semakin banyak deteksi cocok` | Warna wilayah yang lebih gelap menunjukkan jumlah deteksi titik panas yang lebih banyak dalam peta provinsi tersebut. Warna belum menunjukkan luas terbakar atau tingkat kerusakan. |
+| `Titik tanpa kabupaten pasti: 0` | Semua titik yang ditampilkan pada provinsi tersebut berhasil dicocokkan dengan satu kabupaten/kota. Jika nilainya lebih dari nol, ada titik yang belum cocok atau cocok dengan lebih dari satu kabupaten. Ini merupakan hasil pencocokan batas, bukan jaminan ketepatan lokasi di lapangan. |
+| `Titik panas bukan konfirmasi kebakaran hutan` | Satelit mendeteksi panas. Pemeriksaan tambahan, termasuk jenis tutupan lahan, diperlukan untuk memastikan apakah deteksi tersebut merupakan kebakaran hutan. |
+| `Luas kabupaten terbakar tidak tersedia pada sumber` | Excel hanya menyediakan luas karhutla per provinsi. Kita dapat membandingkan kabupaten berdasarkan **jumlah deteksi**, tetapi belum dapat menentukan kabupaten dengan **luas kebakaran terbesar**. |
+
+Contohnya, Konawe dengan 49 deteksi dapat disebut sebagai kabupaten dengan deteksi terbanyak di Sulawesi Tenggara pada tanggal data, berdasarkan hasil pencocokan yang tersedia. Angka tersebut tidak berarti ada 49 kejadian kebakaran terpisah atau 49 hektare lahan terbakar.
+
 ## Hasil nasional dan pemeriksaan lokasi
 
 | File di `outputs/` | Isi |
