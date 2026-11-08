@@ -27,11 +27,24 @@ Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang meru
 | Titik panas VIIRS | 7 November 2026 (`2026-11-07`) | Kolom `acq_date` pada CSV; 1.009 deteksi pada satu tanggal |
 | Luas karhutla yang dipetakan | Kolom tahun 2026 | Parameter `TAHUN = 2026` pada notebook dan `tahun_luas` pada `outputs/validasi.json` |
 | Riwayat luas yang tersedia | 2018–2026 | Kolom tahun pada Excel; belum seluruhnya dipetakan |
-| Batas provinsi dan kabupaten/kota | Tahun referensi batas belum diverifikasi | Jumlah wilayah pada GeoJSON tidak cukup untuk memastikan tahun penerbitan atau pemutakhiran batas |
+| Batas provinsi dan kabupaten/kota | Referensi administrasi 2025; file dihasilkan 16 Februari 2026 | Metadata GeoJSON mencantumkan Kepmendagri No 300.2.2-2138 Tahun 2025 dan `generated_at`; tanggal pembuatan file bukan tanggal survei geometri |
 
 Peringkat titik panas menunjukkan kondisi deteksi **pada 7 November 2026**, bukan akumulasi seluruh tahun 2026. Peringkat luas memakai nilai pada **kolom 2026** di Excel; tanggal pemutakhiran belum diketahui, sehingga tidak dinyatakan sebagai total satu tahun penuh. Kedua ukuran tidak memiliki periode pengamatan yang sama.
 
 Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang tersedia. Untuk mengganti periode titik panas, gunakan CSV dengan tanggal pengamatan yang diinginkan dan ubah parameter `CSV`. Setelah alur pengolahan nasional dapat dijalankan kembali, perbarui hasil analisis dan periksa `outputs/validasi.json` agar tahun serta tanggal pada dokumentasi tetap sesuai.
+
+## Sumber dataset
+
+| Dataset lokal | Sumber dan tautan | Keterangan |
+| --- | --- | --- |
+| `fire_nrt_J1V-C2_840207.csv` | [NASA FIRMS — unduhan active fire](https://firms.modaps.eosdis.nasa.gov/active_fire/) | Sumber diidentifikasi dari `Readme.txt` yang menyertai CSV. File memuat instrumen VIIRS, satelit N20, dan tanggal pengamatan 7 November 2026. |
+| `provinsi.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 38 provinsi. Metadata file mencantumkan generator [Peta Nusa](https://petanusa.web.id) v1.0, tanggal pembuatan 16 Februari 2026, dan referensi Kepmendagri No 300.2.2-2138 Tahun 2025. |
+| `kab_kota.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 514 kabupaten/kota, dengan sumber, generator, tanggal pembuatan, dan referensi administrasi yang sama menurut metadata file. |
+| `luas-karhutla-provinsi.xlsx` | **Sumber unduhan belum dikonfirmasi** | File yang disediakan pengguna memuat luas karhutla per provinsi untuk 2018–2026. Tautan penerbit, satuan, dan tanggal pemutakhiran tidak ditemukan pada tabel atau metadata workbook yang diperiksa. |
+
+Panduan atribut data NASA tersedia pada [NASA FIRMS Readme](https://firms.modaps.eosdis.nasa.gov/download/Readme.txt). Kredit sumber batas wilayah mengacu pada metadata file dan dokumentasi repositori: [Creasi.co / Laravel Nusa](https://github.com/creasico/laravel-nusa). Metadata GeoJSON menyatakan lisensi MIT dan menunjuk ke [lisensi sumber](https://github.com/creasico/laravel-nusa/blob/main/LICENSE).
+
+Alamat sumber Excel perlu ditambahkan setelah dikonfirmasi dari tempat unduh aslinya. Nama file saja tidak cukup untuk menetapkan penerbit dataset. Tanggal pengamatan, tanggal pembuatan file batas, dan tahun referensi administrasi merupakan informasi yang berbeda.
 
 ## File proyek
 
