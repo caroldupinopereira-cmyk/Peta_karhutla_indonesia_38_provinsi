@@ -2,6 +2,22 @@
 
 Proyek GeoPandas untuk memetakan titik panas, menggabungkan luas karhutla per provinsi, dan menentukan kabupaten/kota tempat setiap deteksi berada. Notebook menyediakan satu sel khusus untuk masing-masing dari 38 provinsi.
 
+## Tampilan peta
+
+### Peta nasional
+
+Panel atas menampilkan deteksi titik panas tanggal **7 November 2026**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel, dengan satuan yang masih perlu dikonfirmasi.
+
+![Peta nasional titik panas 7 November 2026 dan luas karhutla kolom tahun 2026](outputs/peta_karhutla.png)
+
+### Contoh peta provinsi: Sulawesi Tenggara
+
+Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang merujuk nama wilayah pada legenda. Angka dalam kurung adalah jumlah deteksi; warna wilayah semakin gelap jika jumlah deteksi semakin banyak dalam provinsi tersebut.
+
+![Peta titik panas Sulawesi Tenggara beserta batas dan jumlah deteksi per kabupaten kota](outputs/provinsi/74_sulawesi_tenggara.png)
+
+[Lihat peta dan tabel seluruh 38 provinsi](outputs/provinsi/).
+
 ## Identifikasi tahun dan periode data
 
 **Hasil analisis yang disimpan saat ini menggunakan tahun luas karhutla 2026 dan deteksi titik panas tanggal 7 November 2026.**
