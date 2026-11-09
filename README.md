@@ -31,7 +31,7 @@ Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang meru
 
 Peringkat titik panas menunjukkan kondisi deteksi **pada 7 November 2026**, bukan akumulasi seluruh tahun 2026. Peringkat luas memakai nilai pada **kolom 2026** di Excel; tanggal pemutakhiran belum diketahui, sehingga tidak dinyatakan sebagai total satu tahun penuh. Kedua ukuran tidak memiliki periode pengamatan yang sama.
 
-Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang tersedia. Untuk mengganti periode titik panas, gunakan CSV dengan tanggal pengamatan yang diinginkan dan ubah parameter `CSV`. Setelah alur pengolahan nasional dapat dijalankan kembali, perbarui hasil analisis dan periksa `outputs/validasi.json` agar tahun serta tanggal pada dokumentasi tetap sesuai.
+Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang tersedia. Untuk mengganti periode titik panas, gunakan CSV dengan tanggal pengamatan yang diinginkan dan ubah parameter `CSV`. Jalankan ulang analisis dan periksa `outputs/validasi.json` agar tahun serta tanggal pada dokumentasi tetap sesuai.
 
 ## Sumber dataset
 
@@ -53,6 +53,7 @@ Pada pemeriksaan 8 November 2026, halaman SIPONGI menyebut periode Januari–Jul
 | File | Kegunaan |
 | --- | --- |
 | `peta_karhutla_indonesia_38_provinsi.ipynb` | Notebook utama |
+| `peta_karhutla.py` | Pengolahan nasional, penggabungan data, peta, dan laporan validasi |
 | `analisis_provinsi.py` | Pencocokan kabupaten/kota dan peta tiap provinsi |
 | `fire_nrt_J1V-C2_840207.csv` | Deteksi titik panas VIIRS |
 | `luas-karhutla-provinsi.xlsx` | Luas karhutla per provinsi, kolom 2018–2026 |
@@ -62,11 +63,11 @@ Pada pemeriksaan 8 November 2026, halaman SIPONGI menyebut periode Januari–Jul
 | `Readme.txt` | Tautan panduan NASA FIRMS |
 | `outputs/` | Peta, tabel, GeoJSON, dan laporan validasi |
 
-## Status setelah penghapusan file lama
+## Alur pengolahan
 
-Notebook masih memanggil `peta_karhutla.py` pada bagian 1 dan 4, tetapi file tersebut sudah tidak ada. Karena itu, **Run All belum dapat dijalankan dari awal**.
+Notebook menjalankan `peta_karhutla.py` pada bagian 4 untuk menghasilkan peta nasional, data provinsi, data titik panas, dan laporan validasi. Simpan skrip tersebut bersama notebook dan data sumber di folder proyek.
 
-Agar notebook dapat berjalan dari awal, pengolahan nasional perlu dipindahkan ke notebook atau modul pengolahan yang tersedia. Bagian 9 menggunakan `analisis_provinsi.py` dan membaca hasil nasional `outputs/provinsi_karhutla.geojson` serta `outputs/titik_panas.geojson`.
+Bagian 9 menggunakan `analisis_provinsi.py` dan membaca hasil nasional `outputs/provinsi_karhutla.geojson` serta `outputs/titik_panas.geojson`. Dengan **Run All**, pengolahan nasional dijalankan sebelum analisis 38 provinsi.
 
 ## Persiapan dan membuka notebook
 
@@ -78,7 +79,15 @@ python -m pip install ipykernel
 code peta_karhutla_indonesia_38_provinsi.ipynb
 ```
 
-Di VS Code, pasang ekstensi **Python** dan **Jupyter** dari Microsoft. Klik **Select Kernel**, lalu pilih lingkungan Python yang memiliki paket proyek. Setelah ketergantungan pengolahan nasional diperbaiki, gunakan **Run All** untuk menjalankan seluruh notebook secara berurutan.
+Di VS Code, pasang ekstensi **Python** dan **Jupyter** dari Microsoft. Klik **Select Kernel**, lalu pilih lingkungan Python yang memiliki paket proyek. Gunakan **Run All** untuk menjalankan seluruh notebook secara berurutan, kemudian gulir ke **bagian 9** untuk melihat hasil masing-masing provinsi.
+
+Pengolahan nasional juga dapat dijalankan langsung dari terminal:
+
+```powershell
+python peta_karhutla.py --tahun 2026 --satuan ha
+```
+
+Gunakan `--tahun` untuk memilih kolom tahun luas dan `--csv nama_file.csv` untuk memilih sumber titik panas lain. Perintah ini menyimpan hasil nasional di `outputs/`; peta khusus tiap provinsi dibuat melalui bagian 9 notebook. Untuk alur notebook, atur `SATUAN = 'ha'` pada bagian 2 agar satuan mengikuti sumber SIPONGI.
 
 Jika hasil nasional sudah tersedia dan hanya ingin menjalankan bagian provinsi, jalankan sel berikut terlebih dahulu:
 
