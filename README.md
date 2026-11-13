@@ -6,9 +6,9 @@ Proyek GeoPandas untuk memetakan titik panas, menggabungkan luas karhutla per pr
 
 ### Peta nasional
 
-Panel atas menampilkan deteksi titik panas tanggal **7 November 2026**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel. Sumber SIPONGI menyajikan luas dalam **hektare (ha)**; peta nasional telah diperbarui menggunakan label ha.
+Panel atas menampilkan deteksi titik panas periode **12–13 November 2026 (UTC)**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel. Sumber SIPONGI menyajikan luas dalam **hektare (ha)**; peta nasional telah diperbarui menggunakan label ha.
 
-![Peta nasional titik panas 7 November 2026 dan luas karhutla kolom tahun 2026](outputs/peta_karhutla.png)
+![Peta nasional titik panas 12–13 November 2026 dan luas karhutla kolom tahun 2026](outputs/peta_karhutla.png)
 
 ### Contoh peta provinsi: Sulawesi Tenggara
 
@@ -20,16 +20,17 @@ Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang meru
 
 ## Identifikasi tahun dan periode data
 
-**Hasil analisis yang disimpan saat ini menggunakan tahun luas karhutla 2026 dan deteksi titik panas tanggal 7 November 2026.**
+**Hasil analisis yang disimpan saat ini menggunakan tahun luas karhutla 2026 dan deteksi titik panas periode 12–13 November 2026 (UTC).**
 
 | Data | Tahun atau periode | Dasar identifikasi |
 | --- | --- | --- |
-| Titik panas VIIRS | 7 November 2026 (`2026-11-07`) | Kolom `acq_date` pada CSV; 1.009 deteksi pada satu tanggal |
+| Titik panas VIIRS | 12–13 November 2026 (UTC) | Snapshot NOAA-20 24 jam, diunduh 13 November 2026; 1.145 deteksi dalam batas provinsi Indonesia |
+| Kehilangan tutupan pohon akibat kebakaran GNW | Tahun terakhir pada file lokal 2025 | CSV tahunan 2001–2025, metadata unduhan 10 November 2026 |
 | Luas karhutla yang dipetakan | Kolom tahun 2026 | Parameter `TAHUN = 2026` pada notebook dan `tahun_luas` pada `outputs/validasi.json` |
 | Riwayat luas yang tersedia | 2018–2026 | Kolom tahun pada Excel; belum seluruhnya dipetakan |
 | Batas provinsi dan kabupaten/kota | Referensi administrasi 2025; file dihasilkan 16 Februari 2026 | Metadata GeoJSON mencantumkan Kepmendagri No 300.2.2-2138 Tahun 2025 dan `generated_at`; tanggal pembuatan file bukan tanggal survei geometri |
 
-Peringkat titik panas menunjukkan kondisi deteksi **pada 7 November 2026**, bukan akumulasi seluruh tahun 2026. Peringkat luas memakai nilai pada **kolom 2026** di Excel; tanggal pemutakhiran belum diketahui, sehingga tidak dinyatakan sebagai total satu tahun penuh. Kedua ukuran tidak memiliki periode pengamatan yang sama.
+Peringkat titik panas menunjukkan kondisi deteksi **pada periode snapshot 12–13 November 2026 (UTC)**, bukan akumulasi seluruh tahun 2026. Peringkat luas memakai nilai pada **kolom 2026** di Excel; tanggal pemutakhiran belum diketahui, sehingga tidak dinyatakan sebagai total satu tahun penuh. Kedua ukuran tidak memiliki periode pengamatan yang sama.
 
 Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang tersedia. Untuk mengganti periode titik panas, gunakan CSV dengan tanggal pengamatan yang diinginkan dan ubah parameter `CSV`. Jalankan ulang analisis dan periksa `outputs/validasi.json` agar tahun serta tanggal pada dokumentasi tetap sesuai.
 
@@ -37,7 +38,7 @@ Untuk memilih tahun luas lain, ubah `TAHUN` pada bagian 2 notebook ke kolom yang
 
 | Dataset lokal | Sumber dan tautan | Keterangan |
 | --- | --- | --- |
-| `All Dataset/fire_nrt_J1V-C2_840207.csv` | [NASA FIRMS — unduhan active fire](https://firms.modaps.eosdis.nasa.gov/active_fire/) | Sumber diidentifikasi dari `Readme.txt` yang menyertai CSV. File memuat instrumen VIIRS, satelit N20, dan tanggal pengamatan 7 November 2026. |
+| `All Dataset/firms_noaa20_indonesia_24h.csv` | [NASA FIRMS — unduhan active fire](https://firms.modaps.eosdis.nasa.gov/active_fire/) | Unduhan resmi NOAA-20 24 jam. CSV regional asli dan JSON provenance tersimpan di All Dataset; subset Indonesia menggunakan batas provinsi lokal. CSV awal 7 November tetap tersedia sebagai arsip. |
 | `All Dataset/provinsi.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 38 provinsi. Metadata file mencantumkan generator [Peta Nusa](https://petanusa.web.id) v1.0, tanggal pembuatan 16 Februari 2026, dan referensi Kepmendagri No 300.2.2-2138 Tahun 2025. |
 | `All Dataset/kab_kota.geojson` | [Indonesia-GeoJSON — AlfianAliM](https://github.com/AlfianAliM/Indonesia-GeoJSON), dengan sumber asal [Laravel Nusa](https://nusa.creasi.dev) | 514 kabupaten/kota, dengan sumber, generator, tanggal pembuatan, dan referensi administrasi yang sama menurut metadata file. |
 | `All Dataset/luas-karhutla-provinsi.xlsx` | [SIPONGI KEMENHUT — Indikasi Luas Kebakaran](https://sipongi.gakkum.kehutanan.go.id/indikasi-luas-kebakaran) | Sumber unduhan dikonfirmasi oleh pengguna. Excel memuat kolom 2018–2026; situs sumber menyajikan luas dalam hektare (ha). Tanggal pemutakhiran berkas lokal belum diketahui. |
@@ -48,12 +49,43 @@ Panduan atribut data NASA tersedia pada [NASA FIRMS Readme](https://firms.modaps
 
 Pada pemeriksaan 8 November 2026, halaman SIPONGI menyebut periode Januari–Juli 2026 dengan total 202.004,30 ha, sedangkan total kolom 2026 pada Excel lokal adalah 202.010,96 ha. Karena terdapat perbedaan, periode Januari–Juli tidak otomatis diterapkan ke berkas lokal. Data Excel tetap dipertahankan dan tanggal pemutakhirannya perlu dicocokkan dengan versi unduhan asli. Tanggal pengamatan, tanggal pembuatan file batas, dan tahun referensi administrasi merupakan informasi yang berbeda.
 
+## Global Nature Watch dan tujuh folder statistik
+
+Ketujuh folder CSV kebakaran bersumber dari dashboard Indonesia kategori fires. [Global Nature Watch](https://globalnaturewatch.org/dashboards/country/IDN/?category=fires&lang=id&map=eyJjYW5Cb3VuZCI6dHJ1ZX0%3D)
+
+| Folder | Pemakaian |
+| --- | --- |
+| Kehilangan tutupan pohon akibat kebakaran di Indonesia | Statistik luas nasional tahunan 2001–2025 |
+| Proporsi kehilangan tutupan pohon akibat kebakaran di Indonesia | Tabel nasional yang sama, dapat dipakai menghitung proporsi |
+| Wilayah dengan kehilangan tutupan pohon terbanyak akibat kebakaran di Indonesia | Choropleth luas kehilangan per wilayah pada bagian 10 notebook |
+| Peringatan Kebakaran Kumulatif di Indonesia | Statistik peringatan VIIRS |
+| Peringatan Kebakaran Mingguan di Indonesia | CSV identik dengan folder kumulatif |
+| Riwayat Peringatan Kebakaran di Indonesia | Riwayat peringatan per tahun, minggu, dan confidence |
+| Wilayah dengan Peringatan kebakaran terbanyak di Indonesia | Statistik peringatan per wilayah |
+
+Sumber dan parameter ketujuh folder diperiksa langsung melalui metadata pada bagian 11 notebook. File ekspor statistik ini tidak menyediakan koordinat titik. Data kehilangan tutupan pohon menggunakan kolom `umd_tree_cover_loss_from_fires__ha` dan ambang tutupan tajuk 30% menurut metadata lokal.
+
+Choropleth GNW memakai tahun terakhir dalam CSV, yaitu 2025. ID wilayah dicocokkan melalui `adm1_metadata.csv`. Untuk menyesuaikan 34 wilayah statistik, geometri Papua Selatan, Papua Tengah, dan Papua Pegunungan digabung dengan Papua; Papua Barat Daya digabung dengan Papua Barat. Penggabungan ini merupakan pendekatan visualisasi dengan batas tersedia dan perlu mempertimbangkan perbedaan batas historis.
+
+![Choropleth kehilangan tutupan pohon akibat kebakaran tahun 2025](outputs/peta_kehilangan_pohon_gnw.png)
+
+## Memperbarui titik panas
+
+```powershell
+python unduh_firms.py
+```
+
+Skrip mengunduh CSV resmi NOAA-20 24 jam, menyimpan sumber regional, membuat subset Indonesia berdasarkan batas provinsi, dan mencatat URL serta tanggal pengunduhan UTC dalam `All Dataset/firms_noaa20_indonesia_24h_metadata.json`. Periksa rentang `acq_date` sesudah unduh, lalu jalankan Run All. Snapshot bawaan saat pembaruan ini diunduh 13 November 2026 dan mencakup pengamatan 12–13 November 2026.
+
 ## Lokasi dataset
 
 Semua data sumber disimpan di folder **`All Dataset/`**, sedangkan kode dan notebook berada di folder utama. Jalankan perintah dari folder utama proyek. Hasil analisis tetap disimpan di `outputs/`.
 
 ```text
 All Dataset/
+  firms_noaa20_indonesia_24h.csv
+  firms_noaa20_southeast_asia_24h.csv
+  firms_noaa20_indonesia_24h_metadata.json
   fire_nrt_J1V-C2_840207.csv
   luas-karhutla-provinsi.xlsx
   provinsi.geojson
@@ -70,6 +102,9 @@ All Dataset/
 | `peta_karhutla_indonesia_38_provinsi.ipynb` | Notebook utama |
 | `peta_karhutla.py` | Pengolahan nasional, penggabungan data, peta, dan laporan validasi |
 | `analisis_provinsi.py` | Pencocokan kabupaten/kota dan peta tiap provinsi |
+| `unduh_firms.py` | Unduhan resmi NASA 24 jam dan pencatatan provenance |
+| `elemen_peta.py` | Panah utara dan label CRS pada peta |
+| `analisis_gnw.py` | Choropleth kehilangan tutupan pohon akibat kebakaran |
 | `All Dataset/fire_nrt_J1V-C2_840207.csv` | Deteksi titik panas VIIRS |
 | `All Dataset/luas-karhutla-provinsi.xlsx` | Luas karhutla per provinsi, kolom 2018–2026 |
 | `All Dataset/provinsi.geojson` | Batas 38 provinsi |
@@ -126,6 +161,8 @@ Folder kerja harus merupakan folder proyek. Jalankan sel persiapan bersama pada 
 7. Pemeriksaan titik yang belum cocok dengan provinsi.
 8. Warna wilayah dan peringkat provinsi.
 9. Persiapan kabupaten/kota dan 38 sel khusus provinsi.
+10. Choropleth kehilangan tutupan pohon akibat kebakaran GNW.
+11. Inventaris sumber tujuh folder dan pemeriksaan hasil.
 
 `TAHUN` memilih kolom luas di Excel, bukan tanggal pengamatan CSV. Sumber SIPONGI menyajikan luas dalam hektare, sehingga `SATUAN` dapat diisi `ha`. Nilai bawaan `SATUAN` pada notebook dan `--satuan` pada skrip adalah `ha`.
 
@@ -160,13 +197,15 @@ Keterangan di bawah peta menjelaskan periode pengamatan, jumlah deteksi, dan bat
 | `Titik panas bukan konfirmasi kebakaran hutan` | Satelit mendeteksi panas. Pemeriksaan tambahan, termasuk jenis tutupan lahan, diperlukan untuk memastikan apakah deteksi tersebut merupakan kebakaran hutan. |
 | `Luas kabupaten terbakar tidak tersedia pada sumber` | Excel hanya menyediakan luas karhutla per provinsi. Kita dapat membandingkan kabupaten berdasarkan **jumlah deteksi**, tetapi belum dapat menentukan kabupaten dengan **luas kebakaran terbesar**. |
 
-Contohnya, Konawe dengan 49 deteksi dapat disebut sebagai kabupaten dengan deteksi terbanyak di Sulawesi Tenggara pada tanggal data, berdasarkan hasil pencocokan yang tersedia. Angka tersebut tidak berarti ada 49 kejadian kebakaran terpisah atau 49 hektare lahan terbakar.
+Contoh angka Konawe (49) menjelaskan hasil snapshot awal 7 November 2026. Saat dataset diperbarui, jumlah pada peta dan tabel mengikuti snapshot yang dipilih.
 
 ## Hasil nasional dan pemeriksaan lokasi
 
 | File di `outputs/` | Isi |
 | --- | --- |
-| `peta_karhutla.png` | Dua panel peta titik panas dan luas karhutla |
+| `peta_karhutla.png` | Choropleth jumlah deteksi beserta titik dan panel luas SIPONGI |
+| `peta_kehilangan_pohon_gnw.png` | Choropleth kehilangan tutupan pohon akibat kebakaran GNW |
+| `kehilangan_pohon_gnw_provinsi.csv` dan `kehilangan_pohon_gnw_34_wilayah.geojson` | Hasil penyelarasan 34 wilayah GNW |
 | `peta_warna_provinsi.png` | Warna dan nomor untuk mengenali provinsi |
 | `peringkat_provinsi.png` dan `peringkat_provinsi.csv` | Perbandingan luas dan jumlah deteksi |
 | `ringkasan_provinsi.csv` | Luas dan jumlah deteksi tiap provinsi |
@@ -192,6 +231,14 @@ CSV awal memuat 1.009 deteksi pada 7 November 2026. Pemeriksaan sebelumnya mengh
 Jumlah deteksi bukan jumlah kejadian kebakaran atau luas terbakar. Titik panas belum membuktikan kebakaran pada tutupan hutan; analisis itu memerlukan data tutupan lahan. Data luas kabupaten tidak tersedia, sehingga perbandingan kabupaten menggunakan jumlah deteksi pada tanggal CSV.
 
 Satuan luas pada situs SIPONGI adalah hektare (ha), tetapi tanggal pemutakhiran Excel lokal belum diketahui. Kolom 2026 tidak otomatis berarti data satu tahun penuh. Nol deteksi pada satu tanggal tidak berarti bebas kebakaran. Nilai nol pada sumber tetap dipertahankan; perbandingan historis perlu memperhatikan pemekaran dan perubahan batas provinsi.
+
+## Kelengkapan tugas
+
+- Notebook memuat URL NASA FIRMS, SIPONGI KEMENHUT, sumber batas administrasi, dan Global Nature Watch.
+- CSV deteksi memuat latitude dan longitude, dengan CRS WGS 84 / EPSG:4326.
+- Peta nasional memakai choropleth jumlah deteksi dan titik pengamatan, serta panel luas SIPONGI.
+- Peta nasional, provinsi, dan GNW dilengkapi judul, legenda/colorbar, panah utara, dan label CRS.
+- PNG nasional tersedia di `outputs/peta_karhutla.png`, PNG GNW di `outputs/peta_kehilangan_pohon_gnw.png`, dan 38 PNG provinsi di `outputs/provinsi/`.
 
 ## Referensi metode
 

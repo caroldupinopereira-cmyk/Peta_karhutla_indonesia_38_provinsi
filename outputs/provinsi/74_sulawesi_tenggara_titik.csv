@@ -1,216 +1,223 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-376,-5.69388,122.78183,2026-11-07,0527,n,Kabupaten Buton Selatan,cocok
-378,-5.65518,122.67963,2026-11-07,0527,n,Kabupaten Buton Selatan,cocok
-379,-5.62568,122.76068,2026-11-07,0527,l,Kabupaten Buton Selatan,cocok
-380,-5.60692,122.77201,2026-11-07,0527,n,Kabupaten Buton Selatan,cocok
-381,-5.61862,122.63036,2026-11-07,0527,n,Kabupaten Buton Selatan,cocok
-382,-5.37151,123.60739,2026-11-07,0527,n,Kabupaten Wakatobi,cocok
-383,-5.47468,122.83949,2026-11-07,0527,n,Kabupaten Buton,cocok
-384,-5.46695,122.8455,2026-11-07,0527,n,Kabupaten Buton,cocok
-386,-5.43259,122.84727,2026-11-07,0527,n,Kabupaten Buton,cocok
-387,-5.43089,122.83618,2026-11-07,0527,l,Kabupaten Buton,cocok
-388,-5.42539,122.84974,2026-11-07,0527,n,Kabupaten Buton,cocok
-389,-5.41557,122.89133,2026-11-07,0527,n,Kabupaten Buton,cocok
-390,-5.42207,122.84923,2026-11-07,0527,n,Kabupaten Buton,cocok
-391,-5.44786,122.68172,2026-11-07,0527,n,Kota Bau Bau,cocok
-392,-5.37739,123.09422,2026-11-07,0527,l,Kabupaten Buton,cocok
-393,-5.37794,123.09067,2026-11-07,0527,l,Kabupaten Buton,cocok
-394,-5.40457,122.9184,2026-11-07,0527,n,Kabupaten Buton,cocok
-395,-5.37404,123.09373,2026-11-07,0527,l,Kabupaten Buton,cocok
-396,-5.40124,122.91788,2026-11-07,0527,n,Kabupaten Buton,cocok
-397,-5.41208,122.8477,2026-11-07,0527,n,Kabupaten Buton,cocok
-398,-5.3907,122.91978,2026-11-07,0527,l,Kabupaten Buton,cocok
-399,-5.38682,122.92278,2026-11-07,0527,n,Kabupaten Buton,cocok
-400,-5.38295,122.92578,2026-11-07,0527,n,Kabupaten Buton,cocok
-401,-5.33561,123.14252,2026-11-07,0527,n,Kabupaten Buton,cocok
-402,-5.31751,123.0887,2026-11-07,0527,n,Kabupaten Buton,cocok
-404,-5.23449,123.1158,2026-11-07,0527,n,Kabupaten Buton,cocok
-405,-5.22933,123.04562,2026-11-07,0527,l,Kabupaten Buton,cocok
-406,-5.22598,123.04512,2026-11-07,0527,n,Kabupaten Buton,cocok
-408,-5.15739,123.02369,2026-11-07,0527,n,Kabupaten Buton,cocok
-409,-5.14102,122.38121,2026-11-07,0527,n,Kabupaten Muna,cocok
-410,-5.01431,122.94238,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-411,-5.01104,122.8303,2026-11-07,0527,n,Kabupaten Muna,cocok
-412,-5.04959,122.46877,2026-11-07,0527,n,Kabupaten Muna,cocok
-413,-5.02282,122.4221,2026-11-07,0527,l,Kabupaten Muna,cocok
-414,-4.93473,122.94823,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-415,-5.10032,121.87184,2026-11-07,0527,n,Kabupaten Bombana,cocok
-416,-4.9314,122.94768,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-417,-4.93195,122.94413,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-418,-4.9325,122.94059,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-419,-4.9677,122.62647,2026-11-07,0527,n,Kabupaten Muna,cocok
-420,-4.92794,122.86379,2026-11-07,0527,l,Kabupaten Muna,cocok
-421,-4.94918,122.68074,2026-11-07,0527,n,Kabupaten Muna,cocok
-422,-4.94972,122.67723,2026-11-07,0527,l,Kabupaten Muna,cocok
-423,-4.91234,122.8542,2026-11-07,0527,n,Kabupaten Muna,cocok
-425,-4.82616,122.85918,2026-11-07,0527,n,Kabupaten Muna,cocok
-426,-4.74178,123.16827,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-427,-4.78484,122.86662,2026-11-07,0527,n,Kabupaten Muna,cocok
-428,-4.84442,122.47893,2026-11-07,0527,l,Kabupaten Muna Barat,cocok
-429,-4.86568,122.34026,2026-11-07,0527,n,Kabupaten Muna Barat,cocok
-430,-4.85799,122.34618,2026-11-07,0527,n,Kabupaten Muna Barat,cocok
-433,-4.7926,122.61695,2026-11-07,0527,l,Kabupaten Muna,cocok
-434,-4.78091,122.60448,2026-11-07,0527,l,Kabupaten Muna,cocok
-435,-4.87229,121.92074,2026-11-07,0527,l,Kabupaten Bombana,cocok
-437,-4.69223,123.02238,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-438,-4.68375,122.99535,2026-11-07,0527,l,Kabupaten Buton Utara,cocok
-439,-4.8357,122.00294,2026-11-07,0527,n,Kabupaten Bombana,cocok
-441,-4.69485,122.85619,2026-11-07,0527,n,Kabupaten Muna,cocok
-442,-4.75115,122.48918,2026-11-07,0527,n,Kabupaten Muna Barat,cocok
-443,-4.67307,122.9756,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-444,-4.66972,122.97508,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-445,-4.67697,122.83908,2026-11-07,0527,n,Kabupaten Muna,cocok
-446,-4.69008,122.66525,2026-11-07,0527,l,Kabupaten Muna,cocok
-447,-4.69159,122.63333,2026-11-07,0527,n,Kabupaten Muna Barat,cocok
-448,-4.61869,123.08338,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-449,-4.61253,123.07878,2026-11-07,0527,l,Kabupaten Buton Utara,cocok
-450,-4.59142,123.17048,2026-11-07,0527,n,Kabupaten Buton Utara,cocok
-451,-4.66711,122.61533,2026-11-07,0527,l,Kabupaten Muna Barat,cocok
-452,-4.72827,121.77422,2026-11-07,0527,n,Kabupaten Bombana,cocok
-453,-4.69524,121.70217,2026-11-07,0527,n,Kabupaten Bombana,cocok
-458,-4.59206,121.93243,2026-11-07,0527,n,Kabupaten Bombana,cocok
-459,-4.57738,121.96194,2026-11-07,0527,n,Kabupaten Bombana,cocok
-460,-4.57408,121.96144,2026-11-07,0527,l,Kabupaten Bombana,cocok
-461,-4.64036,121.52686,2026-11-07,0527,n,Kabupaten Bombana,cocok
-463,-4.6339,121.54713,2026-11-07,0527,n,Kabupaten Bombana,cocok
-465,-4.61939,121.59792,2026-11-07,0527,n,Kabupaten Bombana,cocok
-466,-4.63027,121.5041,2026-11-07,0527,n,Kabupaten Bombana,cocok
-467,-4.62275,121.53128,2026-11-07,0527,n,Kabupaten Bombana,cocok
-468,-4.62417,121.49964,2026-11-07,0527,n,Kabupaten Bombana,cocok
-471,-4.47292,122.24567,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-472,-4.55853,121.6409,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-473,-4.55906,121.63744,2026-11-07,0527,l,Kabupaten Kolaka,cocok
-474,-4.52365,121.84725,2026-11-07,0527,l,Kabupaten Bombana,cocok
-475,-4.55575,121.63694,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-476,-4.47342,122.15377,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-477,-4.42729,122.36633,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-478,-4.40745,122.4735,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-480,-4.4956,121.85358,2026-11-07,0527,n,Kabupaten Bombana,cocok
-481,-4.40271,122.41584,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-482,-4.35728,122.62264,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-483,-4.49076,121.64124,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-484,-4.38208,122.28492,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-486,-4.38396,122.22855,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-487,-4.38502,122.22164,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-488,-4.48733,121.55247,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-490,-4.30893,122.62931,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-491,-4.35778,122.28787,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-492,-4.4641,121.56969,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-494,-4.43341,121.59328,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-495,-4.2739,122.61317,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-496,-4.27444,122.60968,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-497,-4.27164,122.60571,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-498,-4.27218,122.60223,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-499,-4.27271,122.59872,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-500,-4.16354,123.17248,2026-11-07,0527,n,Kabupaten Konawe Kepulauan,cocok
-501,-4.16524,123.16156,2026-11-07,0527,n,Kabupaten Konawe Kepulauan,cocok
-502,-4.23256,122.54974,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-503,-4.36874,121.63996,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-505,-4.24909,122.26698,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-506,-4.19398,122.5825,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-507,-4.12552,122.96143,2026-11-07,0527,l,Kabupaten Konawe Kepulauan,cocok
-508,-4.24787,122.16416,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-509,-4.17023,122.60396,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-510,-4.14011,122.44573,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-511,-4.11026,122.5948,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-513,-4.14918,122.18764,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-514,-4.14135,122.1723,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-516,-4.16536,121.97105,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-517,-4.16589,121.96759,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-518,-4.16641,121.96415,2026-11-07,0527,l,Kabupaten Kolaka Timur,cocok
-519,-4.07123,122.56321,2026-11-07,0527,n,Kota Kendari,cocok
-520,-4.15437,121.97643,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-521,-4.15212,121.96904,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-522,-4.06205,122.51205,2026-11-07,0527,n,Kota Kendari,cocok
-523,-4.06259,122.50854,2026-11-07,0527,l,Kota Kendari,cocok
-524,-4.1406,121.97787,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-525,-4.04414,122.58418,2026-11-07,0527,n,Kota Kendari,cocok
-527,-4.03351,122.45413,2026-11-07,0527,l,Kabupaten Konawe Selatan,cocok
-528,-4.14166,121.66074,2026-11-07,0527,n,Kabupaten Kolaka,cocok
-529,-4.00456,122.51264,2026-11-07,0527,n,Kota Kendari,cocok
-533,-4.0102,122.25373,2026-11-07,0527,n,Kabupaten Konawe Selatan,cocok
-534,-3.96171,122.48107,2026-11-07,0527,n,Kota Kendari,cocok
-536,-4.01059,122.14043,2026-11-07,0527,n,Kabupaten Konawe,cocok
-537,-3.93626,122.60225,2026-11-07,0527,l,Kabupaten Konawe,cocok
-538,-3.93292,122.60173,2026-11-07,0527,n,Kabupaten Konawe,cocok
-540,-3.99256,122.08112,2026-11-07,0527,n,Kabupaten Konawe,cocok
-541,-4.00951,121.97061,2026-11-07,0527,n,Kabupaten Konawe,cocok
-542,-4.0029,121.96958,2026-11-07,0527,n,Kabupaten Konawe,cocok
-546,-3.91931,122.42474,2026-11-07,0527,l,Kabupaten Konawe,cocok
-548,-3.90351,122.41834,2026-11-07,0527,n,Kabupaten Konawe,cocok
-549,-3.90404,122.41487,2026-11-07,0527,l,Kabupaten Konawe,cocok
-551,-3.94592,122.05235,2026-11-07,0527,n,Kabupaten Konawe,cocok
-552,-3.88676,122.39442,2026-11-07,0527,n,Kabupaten Konawe,cocok
-553,-3.93982,122.0479,2026-11-07,0527,n,Kabupaten Konawe,cocok
-554,-3.93915,122.03013,2026-11-07,0527,n,Kabupaten Konawe,cocok
-555,-3.97446,121.79912,2026-11-07,0527,n,Kabupaten Kolaka Timur,cocok
-558,-3.87078,122.40982,2026-11-07,0527,l,Kabupaten Konawe,cocok
-559,-3.87185,122.40285,2026-11-07,0527,n,Kabupaten Konawe,cocok
-560,-3.87239,122.39937,2026-11-07,0527,n,Kabupaten Konawe,cocok
-561,-3.87292,122.39588,2026-11-07,0527,n,Kabupaten Konawe,cocok
-565,-3.83699,122.40822,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-571,-3.88444,122.01122,2026-11-07,0527,n,Kabupaten Konawe,cocok
-572,-3.87662,121.99592,2026-11-07,0527,n,Kabupaten Konawe,cocok
-579,-3.81571,121.95058,2026-11-07,0527,l,Kabupaten Konawe,cocok
-587,-3.75575,121.91995,2026-11-07,0527,n,Kabupaten Konawe,cocok
-588,-3.73882,121.94209,2026-11-07,0527,n,Kabupaten Konawe,cocok
-589,-3.73551,121.94158,2026-11-07,0527,n,Kabupaten Konawe,cocok
-592,-3.72754,121.90511,2026-11-07,0527,l,Kabupaten Konawe,cocok
-593,-3.71732,121.86123,2026-11-07,0527,n,Kabupaten Konawe,cocok
-594,-3.71784,121.85777,2026-11-07,0527,l,Kabupaten Konawe,cocok
-596,-3.6987,121.9607,2026-11-07,0527,n,Kabupaten Konawe,cocok
-597,-3.69923,121.95728,2026-11-07,0527,l,Kabupaten Konawe,cocok
-598,-3.71401,121.86073,2026-11-07,0527,n,Kabupaten Konawe,cocok
-599,-3.71453,121.85728,2026-11-07,0527,n,Kabupaten Konawe,cocok
-600,-3.71506,121.85383,2026-11-07,0527,l,Kabupaten Konawe,cocok
-601,-3.69842,121.9183,2026-11-07,0527,l,Kabupaten Konawe,cocok
-602,-3.69458,121.92124,2026-11-07,0527,n,Kabupaten Konawe,cocok
-603,-3.69074,121.92419,2026-11-07,0527,n,Kabupaten Konawe,cocok
-604,-3.68585,121.93404,2026-11-07,0527,n,Kabupaten Konawe,cocok
-605,-3.68465,121.91974,2026-11-07,0527,l,Kabupaten Konawe,cocok
-606,-3.68341,121.8173,2026-11-07,0527,n,Kabupaten Konawe,cocok
-607,-3.67952,121.81947,2026-11-07,0527,n,Kabupaten Konawe,cocok
-608,-3.67621,121.81896,2026-11-07,0527,l,Kabupaten Konawe,cocok
-610,-3.66817,121.84947,2026-11-07,0527,l,Kabupaten Konawe,cocok
-611,-3.65997,121.85881,2026-11-07,0527,l,Kabupaten Konawe,cocok
-613,-3.65666,121.85831,2026-11-07,0527,n,Kabupaten Konawe,cocok
-615,-3.64621,121.86023,2026-11-07,0527,n,Kabupaten Konawe,cocok
-617,-3.50267,122.17692,2026-11-07,0527,l,Kabupaten Konawe Utara,cocok
-618,-3.51443,122.03347,2026-11-07,0527,l,Kabupaten Konawe Utara,cocok
-619,-3.51111,122.03298,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-622,-3.4728,122.0838,2026-11-07,0527,l,Kabupaten Konawe Utara,cocok
-623,-3.45291,122.08075,2026-11-07,0527,l,Kabupaten Konawe Utara,cocok
-624,-3.49148,121.45121,2026-11-07,0527,l,Kabupaten Kolaka Timur,cocok
-625,-3.31981,122.24068,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-626,-3.32034,122.23723,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-627,-3.32088,122.23376,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-628,-3.31702,122.23671,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-629,-3.31756,122.23325,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-630,-3.30576,122.19943,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-631,-3.31588,122.13364,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-632,-3.30191,122.2024,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-633,-3.30711,122.14648,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-634,-3.30765,122.14301,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-635,-3.21077,122.19878,2026-11-07,0527,l,Kabupaten Konawe Utara,cocok
-636,-3.19171,122.10287,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-637,-3.16397,122.08444,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-639,-3.13796,122.16553,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-640,-3.11714,122.10204,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-641,-3.11768,122.09854,2026-11-07,0527,n,Kabupaten Konawe Utara,cocok
-642,-3.07646,121.87971,2026-11-07,0527,n,Kabupaten Konawe,cocok
-643,-3.07368,121.87575,2026-11-07,0527,n,Kabupaten Konawe,cocok
-651,-2.96774,121.50211,2026-11-07,0527,l,Kabupaten Konawe,cocok
-652,-2.96826,121.49867,2026-11-07,0527,n,Kabupaten Konawe,cocok
-653,-2.93908,121.64558,2026-11-07,0527,l,Kabupaten Konawe,cocok
-654,-2.96166,121.49769,2026-11-07,0527,n,Kabupaten Konawe,cocok
-664,-2.9469,121.21748,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-665,-2.94743,121.21404,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-666,-2.9436,121.217,2026-11-07,0527,h,Kabupaten Kolaka Utara,cocok
-667,-2.94255,121.22385,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-668,-2.94412,121.21355,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-669,-2.93976,121.21992,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-670,-2.94029,121.21648,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-671,-2.92116,121.1644,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-679,-2.82517,121.082,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-680,-2.82238,121.07806,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
-681,-2.81715,121.06628,2026-11-07,0527,n,Kabupaten Kolaka Utara,cocok
+61,-5.2613,121.84761,2026-11-12,0533,n,Kabupaten Bombana,cocok
+195,-5.5904,122.69678,2026-11-12,0533,n,Kabupaten Buton Selatan,cocok
+196,-5.56488,122.63438,2026-11-12,0533,n,Kabupaten Buton Selatan,cocok
+197,-5.56134,122.64125,2026-11-12,0533,l,Kabupaten Buton Selatan,cocok
+198,-5.5458,122.62755,2026-11-12,0533,l,Kabupaten Buton Selatan,cocok
+199,-5.43771,122.69244,2026-11-12,0533,n,Kota Bau Bau,cocok
+200,-5.35229,123.08038,2026-11-12,0533,n,Kabupaten Buton,cocok
+201,-5.31165,123.0863,2026-11-12,0533,n,Kabupaten Buton,cocok
+202,-5.41017,122.03406,2026-11-12,0533,n,Kabupaten Bombana,cocok
+203,-5.24136,123.02699,2026-11-12,0533,n,Kabupaten Buton,cocok
+204,-5.24198,123.02302,2026-11-12,0533,n,Kabupaten Buton,cocok
+205,-5.18929,123.01441,2026-11-12,0533,n,Kabupaten Buton,cocok
+210,-4.97868,122.95003,2026-11-12,0533,n,Kabupaten Buton Utara,cocok
+211,-4.99113,122.47582,2026-11-12,0533,n,Kabupaten Muna,cocok
+212,-4.99179,122.44898,2026-11-12,0533,n,Kabupaten Muna,cocok
+213,-4.77109,122.42638,2026-11-12,0533,n,Kabupaten Muna Barat,cocok
+214,-4.67739,122.97688,2026-11-12,0533,n,Kabupaten Buton Utara,cocok
+215,-4.82689,122.00227,2026-11-12,0533,n,Kabupaten Bombana,cocok
+216,-4.61661,123.08938,2026-11-12,0533,n,Kabupaten Buton Utara,cocok
+218,-4.75038,121.73022,2026-11-12,0533,n,Kabupaten Bombana,cocok
+219,-4.74701,121.72971,2026-11-12,0533,n,Kabupaten Bombana,cocok
+221,-4.71788,121.87212,2026-11-12,0533,n,Kabupaten Bombana,cocok
+223,-4.64661,121.94369,2026-11-12,0533,n,Kabupaten Bombana,cocok
+224,-4.70128,121.56827,2026-11-12,0533,n,Kabupaten Bombana,cocok
+225,-4.64768,121.71391,2026-11-12,0533,n,Kabupaten Bombana,cocok
+226,-4.67374,121.52417,2026-11-12,0533,n,Kabupaten Bombana,cocok
+227,-4.44849,122.68065,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+229,-4.56042,121.79973,2026-11-12,0533,n,Kabupaten Bombana,cocok
+234,-4.41776,122.44442,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+235,-4.51308,121.79233,2026-11-12,0533,n,Kabupaten Bombana,cocok
+236,-4.51365,121.7887,2026-11-12,0533,n,Kabupaten Bombana,cocok
+237,-4.50971,121.79179,2026-11-12,0533,n,Kabupaten Bombana,cocok
+238,-4.40061,122.41843,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+239,-4.40166,122.41875,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+240,-4.3982,122.41824,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+241,-4.4106,122.17815,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+242,-4.37077,122.34412,2026-11-12,0533,l,Kabupaten Konawe Selatan,cocok
+243,-4.37106,122.22914,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+244,-4.34484,122.35185,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+245,-4.34376,122.3362,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+247,-4.31438,122.34332,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+248,-4.28608,122.45515,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+249,-4.28416,122.45458,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+250,-4.28245,122.44266,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+251,-4.24862,122.52357,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+252,-4.24455,122.52685,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+253,-4.30129,122.13815,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+254,-4.21333,122.61279,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+256,-4.19375,122.57816,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+257,-4.19059,122.53022,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+258,-4.18712,122.52963,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+263,-4.12215,122.52364,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+264,-4.0997,122.59885,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+267,-4.06971,122.56226,2026-11-12,0533,n,Kota Kendari,cocok
+268,-4.06621,122.56181,2026-11-12,0533,n,Kota Kendari,cocok
+269,-4.0686,122.54665,2026-11-12,0533,n,Kota Kendari,cocok
+270,-4.06151,122.56895,2026-11-12,0533,n,Kota Kendari,cocok
+271,-4.05801,122.56847,2026-11-12,0533,n,Kota Kendari,cocok
+272,-4.13432,121.92657,2026-11-12,0533,n,Kabupaten Kolaka Timur,cocok
+273,-4.08924,122.17339,2026-11-12,0533,l,Kabupaten Konawe Selatan,cocok
+274,-4.0904,122.16592,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+275,-4.09097,122.16219,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+276,-4.09155,122.15846,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+277,-4.07716,122.20599,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+278,-4.08237,122.17233,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+281,-4.04802,122.37127,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+282,-4.05689,122.29128,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+284,-4.02958,122.19487,2026-11-12,0533,n,Kabupaten Konawe,cocok
+285,-4.00806,122.2646,2026-11-12,0533,n,Kabupaten Konawe Selatan,cocok
+286,-4.00412,122.24474,2026-11-12,0533,n,Kabupaten Konawe,cocok
+287,-4.05715,121.90709,2026-11-12,0533,n,Kabupaten Kolaka Timur,cocok
+288,-3.99949,122.25172,2026-11-12,0533,n,Kabupaten Konawe,cocok
+289,-3.99604,122.25121,2026-11-12,0533,n,Kabupaten Konawe,cocok
+290,-4.0103,122.13838,2026-11-12,0533,n,Kabupaten Konawe,cocok
+291,-3.99219,122.25848,2026-11-12,0533,n,Kabupaten Konawe,cocok
+292,-4.0106,122.13852,2026-11-12,0533,n,Kabupaten Konawe,cocok
+293,-4.01233,122.08156,2026-11-12,0533,n,Kabupaten Konawe,cocok
+294,-4.0129,122.07783,2026-11-12,0533,n,Kabupaten Konawe,cocok
+295,-3.94393,122.43371,2026-11-12,0533,n,Kabupaten Konawe,cocok
+296,-3.96397,122.2811,2026-11-12,0533,n,Kabupaten Konawe,cocok
+297,-3.93817,122.425,2026-11-12,0533,n,Kabupaten Konawe,cocok
+298,-3.93876,122.42116,2026-11-12,0533,n,Kabupaten Konawe,cocok
+299,-3.93469,122.42446,2026-11-12,0533,n,Kabupaten Konawe,cocok
+300,-4.00161,121.96939,2026-11-12,0533,n,Kabupaten Konawe,cocok
+301,-3.92299,122.45403,2026-11-12,0533,l,Kabupaten Konawe,cocok
+302,-3.97514,122.11778,2026-11-12,0533,n,Kabupaten Konawe,cocok
+304,-3.97344,122.10609,2026-11-12,0533,l,Kabupaten Konawe,cocok
+305,-3.92635,122.34105,2026-11-12,0533,n,Kabupaten Konawe,cocok
+306,-3.93693,122.27309,2026-11-12,0533,l,Kabupaten Konawe,cocok
+307,-3.9229,122.34046,2026-11-12,0533,n,Kabupaten Konawe,cocok
+308,-3.90343,122.41969,2026-11-12,0533,n,Kabupaten Konawe,cocok
+309,-3.90402,122.41587,2026-11-12,0533,n,Kabupaten Konawe,cocok
+311,-3.87337,122.40726,2026-11-12,0533,n,Kabupaten Konawe,cocok
+312,-3.87049,122.40291,2026-11-12,0533,n,Kabupaten Konawe,cocok
+313,-3.8711,122.39909,2026-11-12,0533,n,Kabupaten Konawe,cocok
+314,-3.8717,122.39527,2026-11-12,0533,n,Kabupaten Konawe,cocok
+315,-3.84444,122.39877,2026-11-12,0533,l,Kabupaten Konawe Utara,cocok
+316,-3.90532,122.00375,2026-11-12,0533,n,Kabupaten Konawe,cocok
+320,-3.78295,122.20261,2026-11-12,0533,n,Kabupaten Konawe,cocok
+321,-3.78367,122.20285,2026-11-12,0533,n,Kabupaten Konawe,cocok
+322,-3.77965,122.16017,2026-11-12,0533,n,Kabupaten Konawe,cocok
+323,-3.78023,122.15646,2026-11-12,0533,n,Kabupaten Konawe,cocok
+324,-3.78379,121.95121,2026-11-12,0533,n,Kabupaten Konawe,cocok
+325,-3.78438,121.94739,2026-11-12,0533,n,Kabupaten Konawe,cocok
+326,-3.78496,121.94364,2026-11-12,0533,l,Kabupaten Konawe,cocok
+327,-3.76489,122.00542,2026-11-12,0533,n,Kabupaten Konawe,cocok
+328,-3.73711,121.91411,2026-11-12,0533,n,Kabupaten Konawe,cocok
+329,-3.73768,121.91043,2026-11-12,0533,n,Kabupaten Konawe,cocok
+330,-3.73148,121.88311,2026-11-12,0533,n,Kabupaten Konawe,cocok
+331,-3.71023,121.974,2026-11-12,0533,n,Kabupaten Konawe,cocok
+332,-3.75669,121.67766,2026-11-12,0533,n,Kabupaten Kolaka Timur,cocok
+333,-3.71046,121.97304,2026-11-12,0533,n,Kabupaten Konawe,cocok
+334,-3.7559,121.67643,2026-11-12,0533,n,Kabupaten Kolaka Timur,cocok
+336,-3.71428,121.81171,2026-11-12,0533,n,Kabupaten Konawe,cocok
+337,-3.68253,121.94981,2026-11-12,0533,n,Kabupaten Konawe,cocok
+339,-3.68596,121.83717,2026-11-12,0533,n,Kabupaten Konawe,cocok
+340,-3.68199,121.84029,2026-11-12,0533,n,Kabupaten Konawe,cocok
+341,-3.68256,121.83659,2026-11-12,0533,n,Kabupaten Konawe,cocok
+342,-3.67859,121.83973,2026-11-12,0533,n,Kabupaten Konawe,cocok
+343,-3.6746,121.84295,2026-11-12,0533,n,Kabupaten Konawe,cocok
+346,-3.53911,122.06111,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+347,-3.53567,122.06055,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+349,-3.51124,122.17235,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+350,-3.51183,122.16859,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+351,-3.48312,122.14878,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+352,-3.48333,122.1025,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+353,-3.45547,122.08263,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+354,-3.45273,122.05466,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+355,-3.44933,122.05392,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+356,-3.37026,122.15395,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+357,-3.38645,122.02852,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+358,-3.38299,122.02811,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+359,-3.36198,122.09888,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+360,-3.32207,122.22046,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+361,-3.33093,122.16297,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+362,-3.33147,122.15944,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+363,-3.32745,122.16257,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+364,-3.328,122.15901,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+365,-3.30968,122.09476,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+366,-3.29636,122.11227,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+367,-3.2695,122.21635,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+368,-3.27009,122.21256,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+369,-3.26546,122.21954,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+370,-3.26604,122.2158,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+371,-3.26663,122.21204,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+372,-3.262,122.21897,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+373,-3.26258,122.21526,2026-11-12,0533,n,Kabupaten Konawe Utara,cocok
+383,-2.99996,121.24482,2026-11-12,0533,n,Kabupaten Kolaka Utara,cocok
+390,-2.92523,121.18187,2026-11-12,0533,n,Kabupaten Kolaka Utara,cocok
+605,-3.13,122.16756,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+606,-3.13093,122.17299,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+607,-3.26469,122.21808,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+608,-3.26992,122.21165,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+609,-3.2341,121.69808,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+610,-3.24131,121.7021,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+611,-3.24851,121.70602,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+617,-3.23673,121.69994,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+618,-3.38208,122.02816,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+619,-3.53412,122.0584,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+622,-3.53334,122.06067,2026-11-12,1634,n,Kabupaten Konawe Utara,cocok
+627,-3.86714,122.38862,2026-11-12,1634,n,Kabupaten Konawe,cocok
+628,-3.86789,122.39297,2026-11-12,1634,n,Kabupaten Konawe,cocok
+629,-3.86865,122.39742,2026-11-12,1634,n,Kabupaten Konawe,cocok
+630,-3.86942,122.40192,2026-11-12,1634,n,Kabupaten Konawe,cocok
+631,-3.90255,122.41454,2026-11-12,1634,n,Kabupaten Konawe,cocok
+632,-3.89793,122.41349,2026-11-12,1634,n,Kabupaten Konawe,cocok
+633,-3.89872,122.41798,2026-11-12,1634,n,Kabupaten Konawe,cocok
+635,-3.97253,122.26954,2026-11-12,1634,n,Kabupaten Konawe,cocok
+636,-3.97341,122.26831,2026-11-12,1634,n,Kabupaten Konawe,cocok
+637,-4.39514,121.87027,2026-11-12,1634,n,Kabupaten Bombana,cocok
+638,-4.39626,121.87671,2026-11-12,1634,n,Kabupaten Bombana,cocok
+639,-4.67711,122.97285,2026-11-12,1634,n,Kabupaten Buton Utara,cocok
+640,-4.76517,122.96228,2026-11-12,1634,n,Kabupaten Buton Utara,cocok
+641,-4.77088,122.9612,2026-11-12,1634,n,Kabupaten Buton Utara,cocok
+642,-4.80484,122.98666,2026-11-12,1634,n,Kabupaten Buton Utara,cocok
+939,-5.05385,122.80993,2026-11-13,0514,n,Kabupaten Muna,cocok
+940,-4.78339,122.60909,2026-11-13,0514,n,Kabupaten Muna,cocok
+941,-4.61494,123.08047,2026-11-13,0514,n,Kabupaten Buton Utara,cocok
+942,-4.72287,121.88373,2026-11-13,0514,n,Kabupaten Bombana,cocok
+943,-4.71278,121.87714,2026-11-13,0514,l,Kabupaten Bombana,cocok
+944,-4.64156,121.95885,2026-11-13,0514,l,Kabupaten Bombana,cocok
+945,-4.64507,121.70772,2026-11-13,0516,l,Kabupaten Bombana,cocok
+946,-4.64141,121.70729,2026-11-13,0516,l,Kabupaten Bombana,cocok
+947,-4.64482,121.70862,2026-11-13,0516,l,Kabupaten Bombana,cocok
+948,-4.64115,121.70821,2026-11-13,0516,l,Kabupaten Bombana,cocok
+949,-4.60415,121.80574,2026-11-13,0516,n,Kabupaten Bombana,cocok
+951,-4.61502,121.60854,2026-11-13,0516,n,Kabupaten Bombana,cocok
+956,-4.50916,121.89798,2026-11-13,0516,l,Kabupaten Bombana,cocok
+957,-4.50977,121.89385,2026-11-13,0516,l,Kabupaten Bombana,cocok
+958,-4.50616,121.89332,2026-11-13,0516,l,Kabupaten Bombana,cocok
+959,-4.50676,121.88919,2026-11-13,0516,n,Kabupaten Bombana,cocok
+960,-4.50736,121.88506,2026-11-13,0516,l,Kabupaten Bombana,cocok
+961,-4.52072,121.79345,2026-11-13,0516,n,Kabupaten Bombana,cocok
+962,-4.50812,121.89471,2026-11-13,0516,l,Kabupaten Bombana,cocok
+963,-4.50874,121.89057,2026-11-13,0516,n,Kabupaten Bombana,cocok
+964,-4.50513,121.89005,2026-11-13,0516,n,Kabupaten Bombana,cocok
+965,-4.50576,121.88593,2026-11-13,0516,n,Kabupaten Bombana,cocok
+966,-4.51961,121.7945,2026-11-13,0516,l,Kabupaten Bombana,cocok
+967,-4.5009,121.8937,2026-11-13,0516,l,Kabupaten Bombana,cocok
+968,-4.50152,121.88955,2026-11-13,0516,n,Kabupaten Bombana,cocok
+969,-4.49791,121.88905,2026-11-13,0516,n,Kabupaten Bombana,cocok
+971,-4.44347,121.78333,2026-11-13,0516,n,Kabupaten Kolaka,cocok
+976,-4.07806,123.13555,2026-11-13,0516,n,Kabupaten Konawe Kepulauan,cocok
+993,-3.97332,122.27495,2026-11-13,0516,l,Kabupaten Konawe,cocok
+994,-3.90497,122.42035,2026-11-13,0516,l,Kabupaten Konawe,cocok
+995,-3.90554,122.41647,2026-11-13,0516,l,Kabupaten Konawe,cocok
+996,-3.90204,122.41595,2026-11-13,0516,l,Kabupaten Konawe,cocok
+998,-3.87299,122.41188,2026-11-13,0516,l,Kabupaten Konawe,cocok
+999,-3.87357,122.40801,2026-11-13,0516,l,Kabupaten Konawe,cocok
+1000,-3.87066,122.40362,2026-11-13,0516,l,Kabupaten Konawe,cocok
+1001,-3.87125,122.39973,2026-11-13,0516,n,Kabupaten Konawe,cocok
+1002,-3.87184,122.39586,2026-11-13,0516,l,Kabupaten Konawe,cocok
+1005,-3.68414,121.84066,2026-11-13,0516,n,Kabupaten Konawe,cocok
+1008,-3.48289,122.14722,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1009,-3.46302,122.08785,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1010,-3.44993,122.05474,2026-11-13,0516,n,Kabupaten Konawe Utara,cocok
+1011,-3.38491,122.03008,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1012,-3.38545,122.02648,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1013,-3.34003,122.15977,2026-11-13,0516,n,Kabupaten Konawe Utara,cocok
+1014,-3.27344,122.22102,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1015,-3.27402,122.21711,2026-11-13,0516,l,Kabupaten Konawe Utara,cocok
+1016,-3.11041,122.05324,2026-11-13,0516,n,Kabupaten Konawe Utara,cocok

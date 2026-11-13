@@ -1,5 +1,12 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-255,-1.2965,110.56631,2026-11-07,0527,n,Kabupaten Ketapang,cocok
-910,0.71813,112.36023,2026-11-07,0529,n,Kabupaten Kapuas Hulu,cocok
-911,0.71885,112.35882,2026-11-07,0529,n,Kabupaten Kapuas Hulu,cocok
-915,0.01162,110.15583,2026-11-07,0529,n,Kabupaten Sanggau,cocok
+470,-2.28801,110.68609,2026-11-12,0533,n,Kabupaten Ketapang,cocok
+471,-2.14652,110.91869,2026-11-12,0533,n,Kabupaten Ketapang,cocok
+722,-2.17634,110.87673,2026-11-12,1817,n,Kabupaten Ketapang,cocok
+1112,-2.26799,110.6908,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1113,-2.28916,110.56456,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1115,-2.1506,110.98885,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1116,-2.13814,110.82892,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1137,-1.30794,110.42504,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1138,-1.30875,110.41999,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1139,-1.29314,110.39785,2026-11-13,0656,n,Kabupaten Ketapang,cocok
+1140,-1.29392,110.39306,2026-11-13,0656,n,Kabupaten Ketapang,cocok

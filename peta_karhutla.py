@@ -9,6 +9,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from elemen_peta import tambah_elemen_peta
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "All Dataset"
@@ -26,7 +27,8 @@ def angka_indonesia(value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tahun", type=int, default=2026)
-    parser.add_argument("--csv", type=Path, default=DATA_DIR / "fire_nrt_J1V-C2_840207.csv")
+    latest = DATA_DIR / 'firms_noaa20_indonesia_24h.csv'
+    parser.add_argument("--csv", type=Path, default=latest if latest.exists() else DATA_DIR / "fire_nrt_J1V-C2_840207.csv")
     parser.add_argument("--satuan", default="ha")
     args = parser.parse_args()
     out = ROOT / "outputs"
@@ -64,6 +66,10 @@ def main():
     prov["tahun_luas"] = args.tahun
 
     raw = pd.read_csv(args.csv, dtype={"acq_time": str})
+    raw = raw.rename(columns={'bright_ti4': 'brightness', 'bright_ti5': 'bright_t31'})
+    raw['confidence'] = raw.confidence.replace({'low': 'l', 'nominal': 'n', 'high': 'h'})
+    if raw.empty:
+        raise ValueError('CSV tidak berisi deteksi. Pilih periode yang memiliki data.')
     raw["id_deteksi"] = range(1, len(raw) + 1)
     for col in ["longitude", "latitude"]:
         raw[col] = pd.to_numeric(raw[col], errors="coerce")
@@ -94,6 +100,7 @@ def main():
     fig, axes = plt.subplots(2, 1, figsize=(16, 12), facecolor="#f5f7fa")
     colors = {"l": "#f6bd60", "n": "#ed6a24", "h": "#b51025"}
     for ax in axes:
+        tambah_elemen_peta(ax)
         ax.set_facecolor("#e7f0f5")
         ax.set_xlim(94, 142)
         ax.set_ylim(-12, 7)
@@ -103,17 +110,18 @@ def main():
         ax.set_ylabel("Lintang", fontsize=9)
         for spine in ax.spines.values():
             spine.set_color("#cad5de")
-    prov.plot(ax=axes[0], color="#ffffff", edgecolor="#8594a2", linewidth=0.4)
+    prov.plot(ax=axes[0], column='jumlah_deteksi', cmap='YlOrBr', edgecolor='#8594a2', linewidth=0.4,
+              legend=True, legend_kwds={'label': 'Jumlah deteksi per provinsi', 'shrink': 0.65}, zorder=1)
     for conf, color in colors.items():
         subset = points[points.confidence.eq(conf)]
         if len(subset):
             subset.plot(ax=axes[0], color=color, markersize=8, alpha=0.75)
     axes[0].set_title(f"Deteksi titik panas VIIRS | {period} | {len(points):,} deteksi", loc="left", fontsize=13, pad=12)
-    axes[0].legend(handles=[Line2D([], [], marker="o", linestyle="", color=c, label=l, markersize=5) for c, l in zip(colors.values(), ["Confidence rendah", "Confidence nominal", "Confidence tinggi"])], loc="lower left", fontsize=8)
+    axes[0].legend(handles=[Line2D([], [], marker="o", linestyle="", color=c, label=l, markersize=5) for c, l in zip(colors.values(), ["Confidence rendah", "Confidence nominal", "Confidence tinggi"])], loc="lower left", bbox_to_anchor=(0, 0.055), fontsize=8)
     prov.plot(ax=axes[1], column="luas_karhutla", cmap="YlOrRd", edgecolor="#8594a2", linewidth=0.4, legend=True, legend_kwds={"label": f"Nilai luas ({args.satuan})", "shrink": 0.65}, missing_kwds={"color": "#c4cbd2", "label": "Data tidak tersedia"})
     axes[1].set_title(f"Luas karhutla per provinsi | kolom tahun {args.tahun}", loc="left", fontsize=13, pad=12)
     fig.suptitle("Titik panas dan karhutla Indonesia", x=0.07, ha="left", fontsize=23, fontweight="bold", color="#192d40")
-    fig.text(0.07, 0.025, "Sumber: CSV NASA FIRMS, Excel luas karhutla, dan GeoJSON lokal. Titik panas bukan konfirmasi kebakaran hutan.\nLuas mengikuti periode pada Excel; tanggal pemutakhiran dan satuan perlu dikonfirmasi. Kedua panel memiliki periode berbeda.", fontsize=9, color="#526477")
+    fig.text(0.07, 0.025, "Sumber: NASA FIRMS; SIPONGI KEMENHUT; Laravel Nusa / Peta Nusa.\nDeteksi satelit memerlukan pemeriksaan tutupan lahan untuk identifikasi kebakaran hutan. Luas SIPONGI dalam ha; periode mengikuti Excel.", fontsize=9, color="#526477")
     fig.subplots_adjust(top=0.91, bottom=0.10, hspace=0.30, left=0.07, right=0.94)
     fig.savefig(out / "peta_karhutla.png", dpi=180, facecolor=fig.get_facecolor())
     plt.close(fig)
@@ -130,6 +138,7 @@ def main():
     ax.set_xlim(94, 142)
     ax.set_ylim(-12, 7)
     ax.set_title("Wilayah 38 provinsi Indonesia", loc="left", fontsize=20, pad=15)
+    tambah_elemen_peta(ax)
     handles = [Line2D([], [], marker="s", linestyle="", color=color, label=f"{i}. {name}") for i, (color, name) in enumerate(zip(palette, prov.name), start=1)]
     fig.legend(handles=handles, loc="lower center", ncol=4, fontsize=8, frameon=False, bbox_to_anchor=(0.5, 0.025))
     fig.text(0.08, 0.32, "Warna membedakan provinsi. Nomor merujuk ke legenda; tingkat dampak ditampilkan pada grafik peringkat.", fontsize=9)
@@ -157,6 +166,7 @@ def main():
     fig.savefig(out / "peringkat_provinsi.png", dpi=160)
     plt.close(fig)
     report = {"tahun_luas": args.tahun, "satuan": args.satuan, "periode_titik_panas": period, "provinsi": len(prov), "geometri_awal_tidak_valid": invalid, "baris_csv": len(raw), "koordinat_valid": len(points), "status_wilayah": assigned.status_wilayah.value_counts().to_dict(), "provinsi_tanpa_luas": prov.loc[prov.luas_karhutla.isna(), "name"].tolist(), "jumlah_luas_provinsi": float(prov.luas_karhutla.sum()), "total_luas_excel": float(total_source.iloc[0]) if len(total_source) else None}
+    report.update({'csv_sumber': str(args.csv.relative_to(ROOT)) if args.csv.is_relative_to(ROOT) else str(args.csv), 'crs': 'EPSG:4326'})
     (out / "validasi.json").write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(report, indent=2, ensure_ascii=False))
     print(f"Hasil disimpan di {out}")

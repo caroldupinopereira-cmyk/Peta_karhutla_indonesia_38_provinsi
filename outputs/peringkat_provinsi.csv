@@ -1,39 +1,39 @@
 code,name,luas_karhutla,jumlah_deteksi,peringkat_luas,peringkat_deteksi
-61,Kalimantan Barat,38310.86,4,1,17
-93,Papua Selatan,25838.53,0,2,25
-53,Nusa Tenggara Timur,19565.16,128,3,2
-52,Nusa Tenggara Barat,17406.46,61,4,6
-14,Riau,15738.92,0,5,25
-81,Maluku,14677.0,64,6,5
-35,Jawa Timur,10835.28,20,7,13
-63,Kalimantan Selatan,8019.63,21,8,12
-62,Kalimantan Tengah,7634.46,61,9,6
-21,Kepulauan Riau,5760.9,0,10,25
-18,Lampung,4890.26,24,11,11
-11,Aceh,4070.48,0,12,25
-72,Sulawesi Tengah,3138.1,116,13,3
-74,Sulawesi Tenggara,2735.48,215,14,1
-64,Kalimantan Timur,2715.76,109,15,4
-94,Papua Tengah,2519.88,0,16,25
-92,Papua Barat,2496.39,0,17,25
-16,Sumatera Selatan,1926.23,49,18,9
-32,Jawa Barat,1892.97,0,19,25
-95,Papua Pegunungan,1681.43,0,20,25
-13,Sumatera Barat,1491.07,0,21,25
-73,Sulawesi Selatan,1489.5,56,22,8
-12,Sumatera Utara,1330.0,0,23,25
-33,Jawa Tengah,947.97,0,24,25
-76,Sulawesi Barat,865.6,3,25,19
-96,Papua Barat Daya,716.7,9,26,14
-82,Maluku Utara,589.64,2,27,20
-91,Papua,544.61,0,28,25
-75,Gorontalo,455.95,36,29,10
-65,Kalimantan Utara,400.62,7,30,15
-15,Jambi,379.0,2,31,20
-71,Sulawesi Utara,368.78,5,32,16
-19,Kepulauan Bangka Belitung,335.63,2,33,20
-17,Bengkulu,125.15,4,34,17
-51,Bali,108.28,1,35,23
-36,Banten,8.28,1,36,23
-31,Daerah Khusus Ibukota Jakarta,0.0,0,37,25
-34,Daerah Istimewa Yogyakarta,0.0,0,37,25
+61,Kalimantan Barat,38310.86,11,1,15
+93,Papua Selatan,25838.53,65,2,7
+53,Nusa Tenggara Timur,19565.16,236,3,1
+52,Nusa Tenggara Barat,17406.46,40,4,9
+14,Riau,15738.92,2,5,24
+81,Maluku,14677.0,92,6,3
+35,Jawa Timur,10835.28,14,7,14
+63,Kalimantan Selatan,8019.63,28,8,10
+62,Kalimantan Tengah,7634.46,17,9,12
+21,Kepulauan Riau,5760.9,1,10,28
+18,Lampung,4890.26,11,11,15
+11,Aceh,4070.48,2,12,24
+72,Sulawesi Tengah,3138.1,90,13,4
+74,Sulawesi Tenggara,2735.48,222,14,2
+64,Kalimantan Timur,2715.76,82,15,6
+94,Papua Tengah,2519.88,0,16,31
+92,Papua Barat,2496.39,4,17,22
+16,Sumatera Selatan,1926.23,25,18,11
+32,Jawa Barat,1892.97,3,19,23
+95,Papua Pegunungan,1681.43,1,20,28
+13,Sumatera Barat,1491.07,0,21,31
+73,Sulawesi Selatan,1489.5,89,22,5
+12,Sumatera Utara,1330.0,0,23,31
+33,Jawa Tengah,947.97,2,24,24
+76,Sulawesi Barat,865.6,5,25,19
+96,Papua Barat Daya,716.7,5,26,19
+82,Maluku Utara,589.64,58,27,8
+91,Papua,544.61,2,28,24
+75,Gorontalo,455.95,10,29,17
+65,Kalimantan Utara,400.62,0,30,31
+15,Jambi,379.0,6,31,18
+71,Sulawesi Utara,368.78,5,32,19
+19,Kepulauan Bangka Belitung,335.63,16,33,13
+17,Bengkulu,125.15,1,34,28
+51,Bali,108.28,0,35,31
+36,Banten,8.28,0,36,31
+31,Daerah Khusus Ibukota Jakarta,0.0,0,37,31
+34,Daerah Istimewa Yogyakarta,0.0,0,37,31

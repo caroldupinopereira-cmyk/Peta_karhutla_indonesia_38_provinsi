@@ -1,3 +1,7 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-985,-1.80352,102.26552,2026-11-07,0709,n,Kabupaten Merangin,cocok
-986,-1.79559,102.37249,2026-11-07,0709,n,Kabupaten Merangin,cocok
+731,-1.16712,103.33888,2026-11-12,1817,n,Kabupaten Tanjung Jabung Barat,cocok
+737,-1.2987,103.48608,2026-11-12,1817,n,Kabupaten Tanjung Jabung Timur,cocok
+738,-1.56519,103.69597,2026-11-12,1817,n,Kabupaten Muaro Jambi,cocok
+739,-1.5721,103.68777,2026-11-12,1817,n,Kabupaten Muaro Jambi,cocok
+1143,-2.1832,101.61794,2026-11-13,0656,n,Kabupaten Kerinci,cocok
+1144,-1.63382,102.95702,2026-11-13,0658,n,Kabupaten Batanghari,cocok

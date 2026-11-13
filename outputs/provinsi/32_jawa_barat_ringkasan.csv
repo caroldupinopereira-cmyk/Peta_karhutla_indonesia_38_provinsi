@@ -1,13 +1,13 @@
 nomor_peta,kode_kab,kabupaten_kota,jumlah_deteksi
+9,32.12,Kabupaten Indramayu,2
+8,32.05,Kabupaten Garut,1
 1,32.04,Kabupaten Bandung,0
-2,32.17,Kabupaten Bandung Barat,0
 3,32.16,Kabupaten Bekasi,0
+2,32.17,Kabupaten Bandung Barat,0
 4,32.01,Kabupaten Bogor,0
 5,32.07,Kabupaten Ciamis,0
-6,32.03,Kabupaten Cianjur,0
 7,32.09,Kabupaten Cirebon,0
-8,32.05,Kabupaten Garut,0
-9,32.12,Kabupaten Indramayu,0
+6,32.03,Kabupaten Cianjur,0
 10,32.15,Kabupaten Karawang,0
 11,32.08,Kabupaten Kuningan,0
 12,32.10,Kabupaten Majalengka,0

@@ -1,22 +1,29 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-644,-4.13836,114.65379,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-645,-4.11564,114.68001,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-646,-4.111,114.67935,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-647,-4.08163,114.75316,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-648,-4.08221,114.75398,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-649,-4.08293,114.74923,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-660,-3.85504,115.21571,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-661,-3.8442,115.25876,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-662,-3.87522,115.04675,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-663,-3.87588,115.04224,2026-11-07,0527,n,Kabupaten Tanah Laut,cocok
-674,-3.74538,115.41173,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-676,-3.741,115.4111,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-682,-3.62315,115.47707,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-683,-3.62377,115.4729,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-694,-3.3508,115.59036,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-695,-3.34651,115.58964,2026-11-07,0527,n,Kabupaten Tanah Bumbu,cocok
-706,-3.05475,115.78406,2026-11-07,0527,n,Kabupaten Kotabaru,cocok
-713,-2.89643,116.30681,2026-11-07,0527,n,Kabupaten Kotabaru,cocok
-868,-1.75426,115.63795,2026-11-07,0527,n,Kabupaten Tabalong,cocok
-869,-1.75484,115.63413,2026-11-07,0527,n,Kabupaten Tabalong,cocok
-870,-1.7453,115.64066,2026-11-07,0527,n,Kabupaten Tabalong,cocok
+389,-3.84333,115.25858,2026-11-12,0533,n,Kabupaten Tanah Laut,cocok
+395,-3.69409,115.20505,2026-11-12,0533,n,Kabupaten Tanah Laut,cocok
+404,-3.61742,114.60484,2026-11-12,0533,n,Kabupaten Tanah Laut,cocok
+409,-3.59156,114.69238,2026-11-12,0533,n,Kabupaten Tanah Laut,cocok
+410,-3.58743,114.69179,2026-11-12,0533,n,Kabupaten Tanah Laut,cocok
+716,-2.05991,115.57033,2026-11-12,1817,n,Kabupaten Tabalong,cocok
+718,-2.20606,115.54037,2026-11-12,1817,n,Kabupaten Balangan,cocok
+719,-2.20863,115.49563,2026-11-12,1817,n,Kabupaten Tabalong,cocok
+723,-2.91528,115.24238,2026-11-12,1817,n,Kabupaten Tapin,cocok
+724,-2.91987,115.24163,2026-11-12,1817,n,Kabupaten Tapin,cocok
+725,-2.91917,115.23705,2026-11-12,1817,n,Kabupaten Tapin,cocok
+726,-2.94286,115.23817,2026-11-12,1817,n,Kabupaten Tapin,cocok
+727,-2.94215,115.23358,2026-11-12,1817,n,Kabupaten Tapin,cocok
+728,-2.95978,115.22601,2026-11-12,1817,n,Kabupaten Tapin,cocok
+729,-2.95992,115.22783,2026-11-12,1817,n,Kabupaten Tapin,cocok
+730,-2.9985,115.20309,2026-11-12,1817,n,Kabupaten Tapin,cocok
+732,-3.02871,115.15523,2026-11-12,1817,n,Kabupaten Tapin,cocok
+733,-3.03329,115.15452,2026-11-12,1817,n,Kabupaten Tapin,cocok
+734,-3.08442,115.12074,2026-11-12,1817,n,Kabupaten Tapin,cocok
+735,-3.09602,115.10474,2026-11-12,1817,n,Kabupaten Tapin,cocok
+736,-3.09672,115.10931,2026-11-12,1817,n,Kabupaten Tapin,cocok
+741,-3.84006,115.25544,2026-11-12,1819,n,Kabupaten Tanah Laut,cocok
+1032,-2.95683,116.29434,2026-11-13,0516,n,Kabupaten Kotabaru,cocok
+1033,-3.04561,115.78817,2026-11-13,0516,n,Kabupaten Kotabaru,cocok
+1034,-2.95307,116.2944,2026-11-13,0516,n,Kabupaten Kotabaru,cocok
+1035,-2.90587,115.79031,2026-11-13,0516,n,Kabupaten Kotabaru,cocok
+1038,-2.78003,116.28346,2026-11-13,0516,n,Kabupaten Kotabaru,cocok
+1049,-2.4518,115.09521,2026-11-13,0516,h,Kabupaten Hulu Sungai Utara,cocok

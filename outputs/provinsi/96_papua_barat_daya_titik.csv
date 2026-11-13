@@ -1,10 +1,6 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-567,-2.18633,132.54091,2026-11-07,0527,h,Kabupaten Sorong Selatan,cocok
-568,-2.18158,132.56905,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-576,-2.18634,132.54156,2026-11-07,0527,h,Kabupaten Sorong Selatan,cocok
-577,-2.18178,132.56976,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-578,-2.15721,132.5659,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-582,-2.13054,132.16519,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-590,-2.115,132.16885,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-591,-2.11571,132.16451,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
-638,-1.55899,132.14842,2026-11-07,0527,n,Kabupaten Sorong Selatan,cocok
+567,-2.13904,132.45746,2026-11-12,1637,n,Kabupaten Sorong Selatan,cocok
+1024,-0.84456,133.10443,2026-11-13,0516,n,Kabupaten Tambrauw,cocok
+1029,-0.58729,133.16408,2026-11-13,0516,n,Kabupaten Tambrauw,cocok
+1030,-0.58814,133.16658,2026-11-13,0516,n,Kabupaten Tambrauw,cocok
+1031,-0.58865,133.1633,2026-11-13,0516,n,Kabupaten Tambrauw,cocok

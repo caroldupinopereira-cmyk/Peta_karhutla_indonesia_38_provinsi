@@ -7,6 +7,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from matplotlib.colors import Normalize
+from matplotlib.cm import ScalarMappable
+from elemen_peta import tambah_elemen_peta
 
 
 def siapkan_data(root):
@@ -72,6 +75,9 @@ def tampilkan_provinsi(data, nama):
     ax.set_ylim(bounds[1] - margin, bounds[3] + margin)
     ax.set_xlabel('Bujur')
     ax.set_ylabel('Lintang')
+    tambah_elemen_peta(ax)
+    fig.colorbar(ScalarMappable(norm=Normalize(vmin=0, vmax=max(1, kab.jumlah_deteksi.max())), cmap='YlOrBr'),
+                 ax=ax, shrink=0.6, pad=0.02, label='Jumlah deteksi per kabupaten/kota')
     ax.set_title(f'{nama}\n{len(titik):,} deteksi titik panas', loc='left', fontsize=18)
     ax.legend(handles=[Line2D([], [], marker='o', linestyle='', color=c, label=l) for c, l in zip(colors.values(), ['Confidence rendah', 'Confidence nominal', 'Confidence tinggi'])], loc='best', fontsize=8)
     if not len(titik):
@@ -94,5 +100,5 @@ def tampilkan_provinsi(data, nama):
     summary.to_csv(folder / f'{row.code}_{slug}_ringkasan.csv', index=False)
     locations = titik.drop(columns='geometry')[['id_deteksi', 'latitude', 'longitude', 'acq_date', 'acq_time', 'confidence', 'kabupaten_kota', 'status_kabupaten']]
     locations.to_csv(folder / f'{row.code}_{slug}_titik.csv', index=False)
-    info = pd.DataFrame([{'provinsi': nama, 'tahun_luas': row.tahun_luas, 'nilai_luas_satuan_belum_dikonfirmasi': row.luas_karhutla, 'jumlah_deteksi': len(titik), 'deteksi_tanpa_kabupaten_pasti': unassigned}])
+    info = pd.DataFrame([{'provinsi': nama, 'tahun_luas': row.tahun_luas, 'luas_karhutla_ha': row.luas_karhutla, 'jumlah_deteksi': len(titik), 'deteksi_tanpa_kabupaten_pasti': unassigned}])
     return {'peta': path, 'informasi': info, 'ringkasan': summary, 'titik': locations}

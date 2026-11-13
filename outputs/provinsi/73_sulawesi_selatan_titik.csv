@@ -1,57 +1,90 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-424,-5.29902,120.22401,2026-11-07,0527,n,Kabupaten Sinjai,cocok
-431,-5.21728,119.93011,2026-11-07,0527,l,Kabupaten Gowa,cocok
-432,-5.21375,119.90676,2026-11-07,0527,n,Kabupaten Gowa,cocok
-436,-5.11354,120.27419,2026-11-07,0527,l,Kabupaten Sinjai,cocok
-440,-5.15117,119.90478,2026-11-07,0527,n,Kabupaten Gowa,cocok
-454,-4.91875,120.21906,2026-11-07,0527,n,Kabupaten Bone,cocok
-455,-4.91358,120.20709,2026-11-07,0527,n,Kabupaten Bone,cocok
-456,-4.91939,119.93317,2026-11-07,0527,n,Kabupaten Bone,cocok
-457,-4.90634,119.94997,2026-11-07,0527,l,Kabupaten Bone,cocok
-462,-4.8311,120.26486,2026-11-07,0527,l,Kabupaten Bone,cocok
-464,-4.82553,120.27891,2026-11-07,0527,l,Kabupaten Bone,cocok
-469,-4.80654,120.22026,2026-11-07,0527,n,Kabupaten Bone,cocok
-470,-4.76512,120.35091,2026-11-07,0527,n,Kabupaten Bone,cocok
-479,-4.72518,120.36341,2026-11-07,0527,n,Kabupaten Bone,cocok
-485,-4.67865,120.30469,2026-11-07,0527,l,Kabupaten Bone,cocok
-489,-4.68444,120.24261,2026-11-07,0527,l,Kabupaten Bone,cocok
-493,-4.65743,120.25344,2026-11-07,0527,l,Kabupaten Bone,cocok
-504,-4.56951,120.23258,2026-11-07,0527,l,Kabupaten Bone,cocok
-512,-4.4777,120.17441,2026-11-07,0527,n,Kabupaten Bone,cocok
-515,-4.451,120.11478,2026-11-07,0527,l,Kabupaten Bone,cocok
-526,-4.37024,120.30598,2026-11-07,0527,n,Kabupaten Bone,cocok
-530,-4.35416,120.22137,2026-11-07,0527,l,Kabupaten Bone,cocok
-531,-4.3934,119.89453,2026-11-07,0527,n,Kabupaten Soppeng,cocok
-539,-4.28403,120.18117,2026-11-07,0527,n,Kabupaten Bone,cocok
-556,-4.21851,120.17126,2026-11-07,0527,l,Kabupaten Wajo,cocok
-557,-4.21512,120.17076,2026-11-07,0527,n,Kabupaten Wajo,cocok
-566,-4.17677,120.17242,2026-11-07,0527,n,Kabupaten Wajo,cocok
-573,-4.14318,120.21182,2026-11-07,0527,n,Kabupaten Wajo,cocok
-575,-4.14137,120.17047,2026-11-07,0527,n,Kabupaten Wajo,cocok
-580,-4.08162,120.17638,2026-11-07,0527,n,Kabupaten Wajo,cocok
-581,-4.05104,120.24187,2026-11-07,0527,n,Kabupaten Wajo,cocok
-584,-4.08742,119.81117,2026-11-07,0527,n,Kabupaten Sidenreng Rappang,cocok
-585,-4.02133,120.22266,2026-11-07,0527,n,Kabupaten Wajo,cocok
-586,-4.0185,120.21857,2026-11-07,0527,n,Kabupaten Wajo,cocok
-595,-3.95591,120.29002,2026-11-07,0527,n,Kabupaten Wajo,cocok
-609,-3.93144,120.14619,2026-11-07,0527,l,Kabupaten Wajo,cocok
-612,-3.92567,120.11588,2026-11-07,0527,l,Kabupaten Wajo,cocok
-614,-3.91507,120.14006,2026-11-07,0527,n,Kabupaten Wajo,cocok
-616,-3.88112,120.22715,2026-11-07,0527,n,Kabupaten Wajo,cocok
-620,-3.78076,120.12688,2026-11-07,0527,n,Kabupaten Sidenreng Rappang,cocok
-621,-3.76311,120.19798,2026-11-07,0527,n,Kabupaten Wajo,cocok
-650,-3.23675,120.29529,2026-11-07,0527,n,Kabupaten Luwu,cocok
-658,-2.93647,121.44112,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-672,-2.87421,121.22685,2026-11-07,0527,n,,tidak cocok dengan batas kabupaten dalam provinsi
-677,-2.78369,121.6424,2026-11-07,0527,l,Kabupaten Luwu Timur,cocok
-678,-2.77986,121.64534,2026-11-07,0527,l,Kabupaten Luwu Timur,cocok
-684,-2.62698,121.57888,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-685,-2.62367,121.57839,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-686,-2.61758,121.57395,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-687,-2.61428,121.57345,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-688,-2.618,121.48257,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-689,-2.85549,119.83381,2026-11-07,0527,n,Kabupaten Toraja Utara,cocok
-690,-2.62732,121.11096,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-691,-2.57978,121.37833,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-692,-2.57594,121.38127,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
-693,-2.54138,121.54129,2026-11-07,0527,n,Kabupaten Luwu Timur,cocok
+206,-5.51234,120.39764,2026-11-12,0533,l,Kabupaten Bulukumba,cocok
+207,-5.50211,120.35367,2026-11-12,0533,n,Kabupaten Bulukumba,cocok
+208,-5.54315,120.08391,2026-11-12,0533,n,Kabupaten Bantaeng,cocok
+209,-5.54736,120.05616,2026-11-12,0533,n,Kabupaten Bantaeng,cocok
+217,-5.00105,120.14681,2026-11-12,0533,n,Kabupaten Bone,cocok
+220,-5.02038,119.93072,2026-11-12,0533,n,Kabupaten Bone,cocok
+222,-4.95833,120.13636,2026-11-12,0533,n,Kabupaten Bone,cocok
+228,-4.84893,119.94233,2026-11-12,0533,n,Kabupaten Maros,cocok
+230,-4.8451,119.94528,2026-11-12,0533,n,Kabupaten Bone,cocok
+231,-4.84231,119.94135,2026-11-12,0533,n,Kabupaten Bone,cocok
+232,-4.80303,119.99902,2026-11-12,0533,n,Kabupaten Bone,cocok
+233,-4.7645,120.22977,2026-11-12,0533,n,Kabupaten Bone,cocok
+246,-4.6921,120.08075,2026-11-12,0533,n,Kabupaten Bone,cocok
+255,-4.6071,120.06003,2026-11-12,0533,n,Kabupaten Bone,cocok
+259,-4.5058,120.16714,2026-11-12,0533,n,Kabupaten Bone,cocok
+260,-4.50684,120.16028,2026-11-12,0533,n,Kabupaten Bone,cocok
+261,-4.50038,120.18041,2026-11-12,0533,l,Kabupaten Bone,cocok
+262,-4.50443,120.13171,2026-11-12,0533,n,Kabupaten Bone,cocok
+265,-4.47202,120.14442,2026-11-12,0533,n,Kabupaten Bone,cocok
+266,-4.47345,120.11292,2026-11-12,0533,n,Kabupaten Bone,cocok
+279,-4.36641,120.32512,2026-11-12,0533,n,Kabupaten Bone,cocok
+280,-4.39273,120.15277,2026-11-12,0533,n,Kabupaten Bone,cocok
+303,-4.28996,120.06978,2026-11-12,0533,n,Kabupaten Soppeng,cocok
+310,-4.22122,120.32031,2026-11-12,0533,n,Kabupaten Wajo,cocok
+317,-4.22832,119.85152,2026-11-12,0533,n,Kabupaten Soppeng,cocok
+318,-4.19081,120.0752,2026-11-12,0533,n,Kabupaten Wajo,cocok
+319,-4.15839,119.86565,2026-11-12,0533,n,Kabupaten Soppeng,cocok
+335,-4.01846,119.95916,2026-11-12,0533,n,Kabupaten Wajo,cocok
+338,-4.02135,119.67353,2026-11-12,0533,n,Kota Parepare,cocok
+344,-4.00029,119.58883,2026-11-12,0533,n,Kabupaten Pinrang,cocok
+345,-3.91748,119.81998,2026-11-12,0533,n,Kabupaten Sidenreng Rappang,cocok
+348,-3.90314,119.66941,2026-11-12,0533,n,Kabupaten Pinrang,cocok
+376,-3.52334,119.69169,2026-11-12,0533,n,Kabupaten Pinrang,cocok
+377,-3.31691,120.26448,2026-11-12,0533,n,Kabupaten Luwu,cocok
+378,-3.30803,120.2561,2026-11-12,0533,n,Kabupaten Luwu,cocok
+379,-3.30856,120.25266,2026-11-12,0533,n,Kabupaten Luwu,cocok
+380,-3.30472,120.25562,2026-11-12,0533,l,Kabupaten Luwu,cocok
+381,-3.36158,119.75022,2026-11-12,0533,n,Kabupaten Enrekang,cocok
+385,-3.18304,119.9866,2026-11-12,0533,n,Kabupaten Tana Toraja,cocok
+396,-2.93787,119.81338,2026-11-12,0533,n,Kabupaten Toraja Utara,cocok
+397,-2.64629,121.6744,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+398,-2.70342,121.10017,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+399,-2.82227,120.28188,2026-11-12,0533,n,Kabupaten Luwu Utara,cocok
+400,-2.61831,121.47217,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+401,-2.87517,119.73719,2026-11-12,0533,n,Kabupaten Toraja Utara,cocok
+403,-2.76824,120.30148,2026-11-12,0533,n,Kabupaten Luwu Utara,cocok
+405,-2.57927,121.38044,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+406,-2.73024,120.39474,2026-11-12,0533,n,Kabupaten Luwu Utara,cocok
+407,-2.57533,121.38354,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+408,-2.57589,121.37991,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+411,-2.61809,120.72641,2026-11-12,0533,n,Kabupaten Luwu Timur,cocok
+414,-2.61358,120.42588,2026-11-12,0533,n,Kabupaten Luwu Utara,cocok
+560,-2.57294,121.37724,2026-11-12,1634,h,Kabupaten Luwu Timur,cocok
+562,-2.57383,121.38242,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+564,-2.57031,121.36193,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+566,-2.57119,121.36705,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+568,-2.57206,121.37213,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+570,-2.57676,121.36022,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+572,-2.57763,121.36532,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+574,-2.57855,121.37071,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+576,-2.57944,121.37586,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+578,-2.65827,121.60398,2026-11-12,1634,n,Kabupaten Luwu Timur,cocok
+693,-2.57655,121.37968,2026-11-12,1817,n,Kabupaten Luwu Timur,cocok
+694,-2.5755,121.37277,2026-11-12,1817,n,Kabupaten Luwu Timur,cocok
+697,-2.57755,121.37764,2026-11-12,1817,n,Kabupaten Luwu Timur,cocok
+937,-5.55862,120.06115,2026-11-13,0514,n,Kabupaten Bantaeng,cocok
+938,-5.55914,120.0575,2026-11-13,0514,n,Kabupaten Bantaeng,cocok
+950,-4.82618,120.2663,2026-11-13,0516,n,Kabupaten Bone,cocok
+952,-4.8139,120.23917,2026-11-13,0516,n,Kabupaten Bone,cocok
+953,-4.82012,120.11303,2026-11-13,0516,n,Kabupaten Bone,cocok
+954,-4.84793,119.92255,2026-11-13,0516,n,Kabupaten Maros,cocok
+955,-4.79307,120.07266,2026-11-13,0516,n,Kabupaten Bone,cocok
+972,-4.64832,120.32666,2026-11-13,0516,n,Kabupaten Bone,cocok
+977,-4.51948,120.11909,2026-11-13,0516,n,Kabupaten Bone,cocok
+980,-4.49652,120.10843,2026-11-13,0516,n,Kabupaten Bone,cocok
+981,-4.49702,120.10498,2026-11-13,0516,n,Kabupaten Bone,cocok
+982,-4.49303,120.10434,2026-11-13,0516,n,Kabupaten Bone,cocok
+990,-4.44,120.1196,2026-11-13,0516,n,Kabupaten Bone,cocok
+991,-4.44077,120.00496,2026-11-13,0516,n,Kabupaten Soppeng,cocok
+992,-4.3167,120.1109,2026-11-13,0516,n,Kabupaten Bone,cocok
+997,-4.23389,120.11958,2026-11-13,0516,n,Kabupaten Wajo,cocok
+1003,-4.22166,120.07861,2026-11-13,0516,l,Kabupaten Wajo,cocok
+1004,-4.14728,120.00026,2026-11-13,0516,n,Kabupaten Wajo,cocok
+1006,-3.87448,120.14749,2026-11-13,0516,n,Kabupaten Wajo,cocok
+1007,-3.82228,120.22731,2026-11-13,0516,n,Kabupaten Wajo,cocok
+1025,-2.57893,121.38287,2026-11-13,0516,l,Kabupaten Luwu Timur,cocok
+1026,-2.57955,121.37876,2026-11-13,0516,l,Kabupaten Luwu Timur,cocok
+1027,-2.5753,121.38238,2026-11-13,0516,n,Kabupaten Luwu Timur,cocok
+1028,-2.59022,120.63958,2026-11-13,0516,n,Kabupaten Luwu Timur,cocok

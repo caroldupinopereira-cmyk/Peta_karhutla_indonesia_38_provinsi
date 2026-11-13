@@ -1,110 +1,83 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-253,-1.76455,116.25427,2026-11-07,0527,n,Kabupaten Paser,cocok
-263,-0.43773,116.03745,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-270,-0.43597,116.03651,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-271,-0.43953,115.98763,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-273,-0.42991,115.99677,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-278,-0.4259,115.99617,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-286,-0.33299,116.25714,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-287,-0.36098,116.04625,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-290,-0.34866,116.01978,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-291,-0.34466,116.01919,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-292,-0.34119,116.01514,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-293,-0.36174,115.85077,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-295,-0.36082,115.85062,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-300,-0.17314,116.49135,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-303,0.01728,117.42875,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-304,0.02767,117.37489,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-306,0.0581,117.42699,2026-11-07,0527,n,Kota Bontang,cocok
-307,-0.04581,116.7207,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-308,0.0956,117.47749,2026-11-07,0527,n,,tidak cocok dengan batas kabupaten dalam provinsi
-310,-0.09885,115.82412,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-311,0.17481,117.43167,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-312,0.21775,117.49402,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-313,0.21783,117.49059,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-314,0.11974,116.74146,2026-11-07,0527,l,Kabupaten Kutai Kartanegara,cocok
-315,0.12947,116.75412,2026-11-07,0527,l,Kabupaten Kutai Kartanegara,cocok
-316,0.27508,117.45207,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-317,0.17043,116.74319,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-318,0.02417,115.78695,2026-11-07,0527,l,Kabupaten Kutai Barat,cocok
-319,0.0282,115.78629,2026-11-07,0527,l,Kabupaten Kutai Barat,cocok
-320,0.29799,117.4315,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-321,0.11741,116.13308,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-322,0.31413,117.3903,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-323,0.31468,117.39156,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-324,0.3423,117.47321,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-325,0.34165,117.46905,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-329,0.44019,117.55619,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-330,0.43392,117.51472,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-331,0.44379,117.55563,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-332,0.44317,117.55151,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-333,0.44255,117.54738,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-334,0.4474,117.55508,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-335,0.44678,117.55096,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-336,0.44153,117.55675,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-337,0.44088,117.55261,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-338,0.44024,117.54848,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-339,0.43504,117.51533,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-340,0.44514,117.55619,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-341,0.44449,117.55206,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-342,0.47361,117.57304,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-343,0.47297,117.56891,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-344,0.48209,117.58022,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-345,0.48186,117.55488,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-346,0.48738,117.56672,2026-11-07,0527,h,Kabupaten Kutai Timur,cocok
-347,0.48675,117.56258,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-348,0.48547,117.55431,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-349,0.49099,117.56618,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-350,0.49035,117.56203,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-351,0.48971,117.5579,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-352,0.48908,117.55376,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-353,0.49332,117.55735,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-354,0.49884,117.56922,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-356,0.50308,117.5728,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-357,0.50244,117.56867,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-358,0.50181,117.56454,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-361,0.50746,117.28461,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-362,0.53318,117.23326,2026-11-07,0527,l,Kabupaten Kutai Timur,cocok
-363,0.60378,117.13568,2026-11-07,0527,n,Kabupaten Kutai Timur,cocok
-812,-2.24762,115.97598,2026-11-07,0527,n,Kabupaten Paser,cocok
-813,-2.2504,115.95766,2026-11-07,0527,n,Kabupaten Paser,cocok
-820,-2.06,116.17287,2026-11-07,0527,n,Kabupaten Paser,cocok
-822,-2.04484,116.16325,2026-11-07,0527,n,Kabupaten Paser,cocok
-823,-2.04537,116.15968,2026-11-07,0527,n,Kabupaten Paser,cocok
-825,-2.04496,116.15976,2026-11-07,0527,n,Kabupaten Paser,cocok
-831,-1.9636,116.25975,2026-11-07,0527,n,Kabupaten Paser,cocok
-832,-1.98726,116.07438,2026-11-07,0527,n,Kabupaten Paser,cocok
-833,-1.94635,116.09752,2026-11-07,0527,n,Kabupaten Paser,cocok
-835,-1.94654,116.09718,2026-11-07,0527,n,Kabupaten Paser,cocok
-843,-1.94593,115.85528,2026-11-07,0527,n,Kabupaten Paser,cocok
-861,-1.81442,115.95293,2026-11-07,0527,n,Kabupaten Paser,cocok
-864,-1.77863,116.13416,2026-11-07,0527,n,Kabupaten Paser,cocok
-865,-1.77511,116.13004,2026-11-07,0527,n,Kabupaten Paser,cocok
-867,-1.68718,116.18774,2026-11-07,0527,n,Kabupaten Paser,cocok
-871,-1.65568,116.06815,2026-11-07,0527,n,Kabupaten Paser,cocok
-872,-1.64702,116.07059,2026-11-07,0527,n,Kabupaten Paser,cocok
-882,-0.79357,115.91063,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-885,-0.60381,116.08741,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-887,-0.58299,115.84513,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-889,-0.46823,116.29044,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-890,-0.4643,116.28983,2026-11-07,0527,n,Kabupaten Kutai Kartanegara,cocok
-895,-0.47323,116.12608,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-897,-0.46585,116.09442,2026-11-07,0527,n,Kabupaten Kutai Barat,cocok
-900,0.96191,117.92199,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-908,1.85115,117.77699,2026-11-07,0529,n,Kabupaten Berau,cocok
-909,1.73034,117.88304,2026-11-07,0529,n,Kabupaten Berau,cocok
-912,1.24922,117.07497,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-913,1.23433,117.22012,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-914,1.19036,117.73771,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-916,1.05923,117.07995,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-917,1.03895,117.21368,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-918,1.0461,117.21234,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-919,0.90687,116.91927,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-920,0.88257,116.94844,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-921,0.84501,116.82696,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-922,0.80308,116.77852,2026-11-07,0529,l,Kabupaten Kutai Timur,cocok
-923,0.71305,117.06746,2026-11-07,0529,l,Kabupaten Kutai Timur,cocok
-924,0.57146,116.11266,2026-11-07,0529,n,Kabupaten Kutai Kartanegara,cocok
-925,0.75361,117.1587,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-926,0.86658,117.72469,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
-927,0.73963,116.64383,2026-11-07,0529,n,Kabupaten Kutai Timur,cocok
+475,-0.79284,115.78332,2026-11-12,0535,n,Kabupaten Kutai Barat,cocok
+476,-0.78914,115.78276,2026-11-12,0535,n,Kabupaten Kutai Barat,cocok
+485,-0.01,117.38608,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+487,0.01024,117.47304,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+490,0.0142,117.47618,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+491,0.0098,117.42442,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+492,0.00813,117.41341,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+493,0.00757,117.40974,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+494,0.00701,117.40606,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+495,0.01321,117.4239,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+496,0.01098,117.40923,2026-11-12,0535,n,Kabupaten Kutai Kartanegara,cocok
+497,0.03985,117.43861,2026-11-12,0535,n,Kota Bontang,cocok
+499,0.20436,117.41376,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+500,0.23784,117.40483,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+501,0.27193,117.44093,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+502,0.27534,117.44044,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+503,0.27479,117.43687,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+504,0.29061,117.44921,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+505,0.34754,117.52602,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+506,0.23421,116.61801,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+507,0.23831,116.6214,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+508,0.23772,116.61749,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+509,0.44704,117.55813,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+510,0.29548,116.56837,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+511,0.29488,116.56445,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+512,0.2984,116.56391,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+513,0.30371,116.57511,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+514,0.30723,116.57458,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+515,0.40705,116.75042,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+516,0.59501,117.65713,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+517,0.49503,116.73328,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+518,0.49443,116.72945,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+519,0.61049,117.32123,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+520,0.60332,117.13781,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+521,0.60674,117.13728,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+522,0.67814,117.12295,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+523,0.65995,116.72851,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+524,0.66343,116.728,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+525,0.68667,116.85708,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+526,0.72274,117.07059,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+527,0.67562,116.73796,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+528,0.74659,116.88658,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+529,0.77587,116.80077,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+530,0.89026,117.11294,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+531,0.9945,117.19833,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+532,1.09495,117.21687,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+533,1.0944,117.2132,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+534,1.11603,117.23614,2026-11-12,0535,n,Kabupaten Kutai Timur,cocok
+678,0.68352,117.55937,2026-11-12,1817,n,Kabupaten Kutai Timur,cocok
+679,0.67744,117.56455,2026-11-12,1817,n,Kabupaten Kutai Timur,cocok
+680,-0.20304,116.49615,2026-11-12,1817,n,Kabupaten Kutai Kartanegara,cocok
+681,-0.38507,115.93359,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+682,-0.39433,115.93211,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+683,-0.39508,115.93693,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+684,-0.41523,115.70593,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+687,-0.84616,115.55158,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+688,-0.84997,115.54627,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+689,-0.8476,115.55419,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+690,-0.85074,115.54432,2026-11-12,1817,n,Kabupaten Kutai Barat,cocok
+699,-1.86076,115.87823,2026-11-12,1817,n,Kabupaten Paser,cocok
+700,-1.88045,115.8499,2026-11-12,1817,n,Kabupaten Paser,cocok
+701,-1.86168,115.87617,2026-11-12,1817,n,Kabupaten Paser,cocok
+703,-1.88154,115.84759,2026-11-12,1817,n,Kabupaten Paser,cocok
+704,-1.88855,115.86196,2026-11-12,1817,n,Kabupaten Paser,cocok
+705,-1.88779,115.85693,2026-11-12,1817,n,Kabupaten Paser,cocok
+706,-1.89327,115.86122,2026-11-12,1817,n,Kabupaten Paser,cocok
+707,-1.92703,115.89204,2026-11-12,1817,n,Kabupaten Paser,cocok
+708,-1.93576,115.85452,2026-11-12,1817,n,Kabupaten Paser,cocok
+709,-1.94048,115.85377,2026-11-12,1817,n,Kabupaten Paser,cocok
+710,-1.94126,115.85879,2026-11-12,1817,n,Kabupaten Paser,cocok
+711,-1.94519,115.853,2026-11-12,1817,n,Kabupaten Paser,cocok
+712,-1.94597,115.85799,2026-11-12,1817,n,Kabupaten Paser,cocok
+713,-1.97757,115.87418,2026-11-12,1817,n,Kabupaten Paser,cocok
+714,-1.9823,115.87345,2026-11-12,1817,n,Kabupaten Paser,cocok
+715,-1.97871,115.87282,2026-11-12,1817,n,Kabupaten Paser,cocok
+717,-2.29273,116.19987,2026-11-12,1817,n,Kabupaten Paser,cocok
+1056,-1.89482,116.28587,2026-11-13,0516,h,Kabupaten Paser,cocok
+1057,-1.89524,116.28301,2026-11-13,0516,n,Kabupaten Paser,cocok
+1059,-1.89442,116.28614,2026-11-13,0516,n,Kabupaten Paser,cocok
+1060,-1.89486,116.2833,2026-11-13,0516,n,Kabupaten Paser,cocok
+1087,-0.02291,115.79785,2026-11-13,0516,n,Kabupaten Kutai Barat,cocok
+1088,-0.02319,115.79685,2026-11-13,0516,n,Kabupaten Kutai Barat,cocok

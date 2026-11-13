@@ -1,1 +1,5 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+561,-0.9975,134.0222,2026-11-12,1637,n,Kabupaten Manokwari,cocok
+601,-2.78428,134.07803,2026-11-12,1637,n,Kabupaten Teluk Bintuni,cocok
+602,-2.84918,134.10306,2026-11-12,1637,n,Kabupaten Teluk Bintuni,cocok
+604,-3.11103,134.46979,2026-11-12,1637,n,Kabupaten Teluk Wondama,cocok

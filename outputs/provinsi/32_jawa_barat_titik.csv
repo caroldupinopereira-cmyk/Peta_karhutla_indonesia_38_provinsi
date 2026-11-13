@@ -1,1 +1,4 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
+1098,-7.08152,107.94634,2026-11-13,0656,n,Kabupaten Garut,cocok
+1099,-6.58418,108.00436,2026-11-13,0656,n,Kabupaten Indramayu,cocok
+1100,-6.54821,108.09456,2026-11-13,0656,n,Kabupaten Indramayu,cocok

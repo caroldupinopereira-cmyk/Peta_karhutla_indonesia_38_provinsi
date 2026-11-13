@@ -1,8 +1,1 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-901,4.01683,117.64919,2026-11-07,0529,n,Kabupaten Nunukan,cocok
-902,3.81076,116.86481,2026-11-07,0529,n,Kabupaten Nunukan,cocok
-903,3.80893,116.8644,2026-11-07,0529,n,Kabupaten Nunukan,cocok
-904,3.7431,117.49127,2026-11-07,0529,n,Kabupaten Tana Tidung,cocok
-905,4.26627,117.2485,2026-11-07,0529,n,Kabupaten Nunukan,cocok
-906,3.62012,117.49029,2026-11-07,0529,n,Kabupaten Tana Tidung,cocok
-907,2.70851,117.77519,2026-11-07,0529,n,Kabupaten Bulungan,cocok

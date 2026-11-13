@@ -1,11 +1,11 @@
 nomor_peta,kode_kab,kabupaten_kota,jumlah_deteksi
-1,52.06,Kabupaten Bima,27
-7,52.04,Kabupaten Sumbawa,24
-5,52.03,Kabupaten Lombok Timur,4
-6,52.08,Kabupaten Lombok Utara,4
-3,52.01,Kabupaten Lombok Barat,1
+1,52.06,Kabupaten Bima,23
+7,52.04,Kabupaten Sumbawa,14
+8,52.07,Kabupaten Sumbawa Barat,1
 4,52.02,Kabupaten Lombok Tengah,1
+5,52.03,Kabupaten Lombok Timur,1
 2,52.05,Kabupaten Dompu,0
-8,52.07,Kabupaten Sumbawa Barat,0
+6,52.08,Kabupaten Lombok Utara,0
+3,52.01,Kabupaten Lombok Barat,0
 9,52.72,Kota Bima,0
 10,52.71,Kota Mataram,0

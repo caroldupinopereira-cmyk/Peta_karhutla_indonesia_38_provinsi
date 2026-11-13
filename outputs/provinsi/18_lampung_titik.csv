@@ -1,25 +1,12 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-955,-5.5769,105.67924,2026-11-07,0707,n,Kabupaten Lampung Selatan,cocok
-956,-4.59108,105.84176,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-957,-4.59167,105.8383,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-958,-4.51223,105.70343,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-959,-4.41316,105.82848,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-960,-4.41134,105.83005,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-961,-4.40723,105.75459,2026-11-07,0707,h,Kabupaten Tulang Bawang,cocok
-962,-4.39024,105.72373,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-964,-4.41529,105.51036,2026-11-07,0707,h,Kabupaten Tulang Bawang,cocok
-965,-4.41586,105.50701,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-966,-4.41641,105.50372,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-967,-4.40997,105.50954,2026-11-07,0707,h,Kabupaten Tulang Bawang,cocok
-969,-4.34254,105.61515,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-970,-4.32882,105.61221,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-971,-4.27832,105.61788,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-975,-4.21615,105.47906,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-976,-4.21084,105.4782,2026-11-07,0707,n,Kabupaten Tulang Bawang,cocok
-978,-4.06479,105.31908,2026-11-07,0707,n,Kabupaten Mesuji,cocok
-979,-4.06559,105.31881,2026-11-07,0707,n,Kabupaten Mesuji,cocok
-980,-3.97667,105.46008,2026-11-07,0707,h,Kabupaten Mesuji,cocok
-981,-3.9761,105.4634,2026-11-07,0707,n,Kabupaten Mesuji,cocok
-982,-3.97723,105.45673,2026-11-07,0707,n,Kabupaten Mesuji,cocok
-983,-3.97133,105.45922,2026-11-07,0707,n,Kabupaten Mesuji,cocok
-984,-3.94154,105.18903,2026-11-07,0707,n,Kabupaten Mesuji,cocok
+668,-4.68974,104.81969,2026-11-12,1817,n,Kabupaten Lampung Utara,cocok
+669,-4.69333,104.81912,2026-11-12,1817,n,Kabupaten Lampung Utara,cocok
+670,-4.69177,104.82076,2026-11-12,1817,n,Kabupaten Lampung Utara,cocok
+749,-4.12109,105.58763,2026-11-12,1819,n,Kabupaten Mesuji,cocok
+750,-4.15243,105.58257,2026-11-12,1819,n,Kabupaten Mesuji,cocok
+751,-4.39221,105.74493,2026-11-12,1819,n,Kabupaten Tulang Bawang,cocok
+752,-4.36891,105.28169,2026-11-12,1819,n,Kabupaten Tulang Bawang,cocok
+753,-4.56076,104.83133,2026-11-12,1819,n,Kabupaten Lampung Utara,cocok
+1101,-4.75939,105.67797,2026-11-13,0656,n,Kabupaten Lampung Tengah,cocok
+1102,-4.88198,104.7374,2026-11-13,0656,n,Kabupaten Lampung Utara,cocok
+1103,-4.17154,105.08216,2026-11-13,0656,n,Kabupaten Mesuji,cocok

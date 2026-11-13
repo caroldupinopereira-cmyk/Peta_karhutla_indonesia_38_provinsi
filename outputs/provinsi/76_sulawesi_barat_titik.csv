@@ -1,4 +1,6 @@
 id_deteksi,latitude,longitude,acq_date,acq_time,confidence,kabupaten_kota,status_kabupaten
-710,-2.45197,119.58649,2026-11-07,0527,n,Kabupaten Mamuju,cocok
-711,-2.45254,119.58275,2026-11-07,0527,n,Kabupaten Mamuju,cocok
-712,-2.44856,119.58601,2026-11-07,0527,n,Kabupaten Mamuju,cocok
+426,-2.49534,119.48998,2026-11-12,0533,n,Kabupaten Mamuju,cocok
+427,-2.49203,119.48945,2026-11-12,0533,n,Kabupaten Mamuju,cocok
+428,-2.49256,119.48601,2026-11-12,0533,n,Kabupaten Mamuju,cocok
+429,-2.48872,119.48895,2026-11-12,0533,n,Kabupaten Mamuju,cocok
+431,-2.45535,119.17252,2026-11-12,0533,n,Kabupaten Mamuju,cocok
