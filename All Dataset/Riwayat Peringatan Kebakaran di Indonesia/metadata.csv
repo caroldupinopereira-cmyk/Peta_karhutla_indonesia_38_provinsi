@@ -1,0 +1,8 @@
+title,Riwayat Peringatan Kebakaran di Indonesia
+dataset,viirs
+min_date,2000_01_01
+confidence,
+end_date,2026_11_09
+date_downloaded,2026-11-10
+metadata,https://api.resourcewatch.org/v1/gfw-metadata/widget_fire_alert_location
+link,https://globalnaturewatch.org/dashboards/country/IDN/?category=fires&lang=id&location=WyJjb3VudHJ5IiwiSUROIl0%3D&map=eyJjYW5Cb3VuZCI6dHJ1ZX0%3D

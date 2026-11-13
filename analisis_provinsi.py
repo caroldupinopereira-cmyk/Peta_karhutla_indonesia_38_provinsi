@@ -13,7 +13,7 @@ def siapkan_data(root):
     root = Path(root)
     prov = gpd.read_file(root / 'outputs/provinsi_karhutla.geojson').to_crs(4326)
     points = gpd.read_file(root / 'outputs/titik_panas.geojson').to_crs(4326)
-    kab = gpd.read_file(root / 'kab_kota.geojson').to_crs(4326)
+    kab = gpd.read_file(root / 'All Dataset' / 'kab_kota.geojson').to_crs(4326)
     kab['kode_kab'] = kab['code'].astype(str)
     kab['kode_provinsi'] = kab.kode_kab.str.split('.').str[0]
     kab = kab.rename(columns={'name': 'kabupaten_kota'})

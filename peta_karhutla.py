@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 
 ROOT = Path(__file__).resolve().parent
+DATA_DIR = ROOT / "All Dataset"
 
 
 def angka_indonesia(value):
@@ -25,13 +26,13 @@ def angka_indonesia(value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tahun", type=int, default=2026)
-    parser.add_argument("--csv", type=Path, default=ROOT / "fire_nrt_J1V-C2_840207.csv")
-    parser.add_argument("--satuan", default="satuan sumber belum diverifikasi")
+    parser.add_argument("--csv", type=Path, default=DATA_DIR / "fire_nrt_J1V-C2_840207.csv")
+    parser.add_argument("--satuan", default="ha")
     args = parser.parse_args()
     out = ROOT / "outputs"
     out.mkdir(exist_ok=True)
 
-    prov = gpd.read_file(ROOT / "provinsi.geojson")
+    prov = gpd.read_file(DATA_DIR / "provinsi.geojson")
     if prov.crs is None:
         raise ValueError("GeoJSON tidak memiliki CRS.")
     prov = prov.to_crs(4326)
@@ -45,7 +46,7 @@ def main():
     if not prov.is_valid.all() or prov.geometry.is_empty.any() or prov.code.duplicated().any():
         raise ValueError("Batas provinsi belum memenuhi validasi.")
 
-    luas = pd.read_excel(ROOT / "luas-karhutla-provinsi.xlsx", sheet_name="data")
+    luas = pd.read_excel(DATA_DIR / "luas-karhutla-provinsi.xlsx", sheet_name="data")
     luas.columns = luas.columns.map(str)
     year = str(args.tahun)
     if year not in luas:
