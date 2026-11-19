@@ -1,4 +1,4 @@
-"""Peta awal karhutla Indonesia dengan GeoPandas. Jalankan: python peta_karhutla.py."""
+"""Peta awal karhutla Indonesia dengan GeoPandas. Jalankan: python scripts/peta_karhutla.py."""
 from pathlib import Path
 import argparse
 import json
@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
 from elemen_peta import tambah_elemen_peta
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "All Dataset"
 
 

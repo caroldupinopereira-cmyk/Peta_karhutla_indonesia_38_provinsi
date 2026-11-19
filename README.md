@@ -72,14 +72,14 @@ Choropleth GNW memakai tahun terakhir dalam CSV, yaitu 2025. ID wilayah dicocokk
 ## Memperbarui titik panas
 
 ```powershell
-python unduh_firms.py
+python scripts/unduh_firms.py
 ```
 
 Skrip mengunduh CSV resmi NOAA-20 24 jam, menyimpan sumber regional, membuat subset Indonesia berdasarkan batas provinsi, dan mencatat URL serta tanggal pengunduhan UTC dalam `All Dataset/firms_noaa20_indonesia_24h_metadata.json`. Periksa rentang `acq_date` sesudah unduh, lalu jalankan Run All. Snapshot bawaan saat pembaruan ini diunduh 13 November 2026 dan mencakup pengamatan 12–13 November 2026.
 
 ## Lokasi dataset
 
-Semua data sumber disimpan di folder **`All Dataset/`**, sedangkan kode dan notebook berada di folder utama. Jalankan perintah dari folder utama proyek. Hasil analisis tetap disimpan di `outputs/`.
+Semua data sumber disimpan di folder **`All Dataset/`**, sedangkan kode Python berada di `scripts/` dan notebook tetap berada di folder utama. Jalankan perintah dari folder utama proyek. Hasil analisis tetap disimpan di `outputs/`.
 
 ```text
 All Dataset/
@@ -100,11 +100,11 @@ All Dataset/
 | File | Kegunaan |
 | --- | --- |
 | `peta_karhutla_indonesia_38_provinsi.ipynb` | Notebook utama |
-| `peta_karhutla.py` | Pengolahan nasional, penggabungan data, peta, dan laporan validasi |
-| `analisis_provinsi.py` | Pencocokan kabupaten/kota dan peta tiap provinsi |
-| `unduh_firms.py` | Unduhan resmi NASA 24 jam dan pencatatan provenance |
-| `elemen_peta.py` | Panah utara dan label CRS pada peta |
-| `analisis_gnw.py` | Choropleth kehilangan tutupan pohon akibat kebakaran |
+| `scripts/peta_karhutla.py` | Pengolahan nasional, penggabungan data, peta, dan laporan validasi |
+| `scripts/analisis_provinsi.py` | Pencocokan kabupaten/kota dan peta tiap provinsi |
+| `scripts/unduh_firms.py` | Unduhan resmi NASA 24 jam dan pencatatan provenance |
+| `scripts/elemen_peta.py` | Panah utara dan label CRS pada peta |
+| `scripts/analisis_gnw.py` | Choropleth kehilangan tutupan pohon akibat kebakaran |
 | `All Dataset/fire_nrt_J1V-C2_840207.csv` | Deteksi titik panas VIIRS |
 | `All Dataset/luas-karhutla-provinsi.xlsx` | Luas karhutla per provinsi, kolom 2018–2026 |
 | `All Dataset/provinsi.geojson` | Batas 38 provinsi |
@@ -115,9 +115,9 @@ All Dataset/
 
 ## Alur pengolahan
 
-Notebook menjalankan `peta_karhutla.py` pada bagian 4 untuk menghasilkan peta nasional, data provinsi, data titik panas, dan laporan validasi. Simpan skrip tersebut bersama notebook di folder proyek; data sumber berada di subfolder `All Dataset/`.
+Notebook menjalankan `scripts/peta_karhutla.py` pada bagian 4 untuk menghasilkan peta nasional, data provinsi, data titik panas, dan laporan validasi. Simpan skrip di subfolder `scripts/` dan notebook di folder utama proyek; data sumber berada di subfolder `All Dataset/`.
 
-Bagian 9 menggunakan `analisis_provinsi.py` dan membaca hasil nasional `outputs/provinsi_karhutla.geojson` serta `outputs/titik_panas.geojson`. Dengan **Run All**, pengolahan nasional dijalankan sebelum analisis 38 provinsi.
+Bagian 9 menggunakan `scripts/analisis_provinsi.py` dan membaca hasil nasional `outputs/provinsi_karhutla.geojson` serta `outputs/titik_panas.geojson`. Dengan **Run All**, pengolahan nasional dijalankan sebelum analisis 38 provinsi.
 
 ## Persiapan dan membuka notebook
 
@@ -134,7 +134,7 @@ Di VS Code, pasang ekstensi **Python** dan **Jupyter** dari Microsoft. Klik **Se
 Pengolahan nasional juga dapat dijalankan langsung dari terminal:
 
 ```powershell
-python peta_karhutla.py --tahun 2026 --satuan ha
+python scripts/peta_karhutla.py --tahun 2026 --satuan ha
 ```
 
 Gunakan `--tahun` untuk memilih kolom tahun luas dan `--csv "All Dataset/nama_file.csv"` untuk memilih sumber titik panas lain. Perintah ini menyimpan hasil nasional di `outputs/`; peta khusus tiap provinsi dibuat melalui bagian 9 notebook. Untuk alur notebook, atur `SATUAN = 'ha'` pada bagian 2 agar satuan mengikuti sumber SIPONGI.
