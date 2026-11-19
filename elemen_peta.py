@@ -2,7 +2,7 @@
 
 
 def tambah_elemen_peta(ax):
-    ax.annotate('U', xy=(0.95, 0.90), xytext=(0.95, 0.76),
+    ax.annotate('N', xy=(0.95, 0.90), xytext=(0.95, 0.76),
                 xycoords='axes fraction', ha='center', va='center',
                 fontsize=12, fontweight='bold',
                 arrowprops={'arrowstyle': '-|>', 'color': '#172b3b', 'lw': 1.8},
