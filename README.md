@@ -4,19 +4,21 @@ Proyek GeoPandas untuk memetakan titik panas, menggabungkan luas karhutla per pr
 
 ## Tampilan peta
 
+Jalankan **Run All** pada notebook untuk membuat ulang peta. File PNG dan tabel tiap provinsi disimpan otomatis di `outputs/provinsi/`; folder ini dibuat oleh kode jika belum tersedia.
+
 ### Peta nasional
 
 Panel atas menampilkan deteksi titik panas periode **12–13 November 2026 (UTC)**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel. Sumber SIPONGI menyajikan luas dalam **hektare (ha)**; peta nasional telah diperbarui menggunakan label ha.
 
-![Peta nasional titik panas 12–13 November 2026 dan luas karhutla kolom tahun 2026](outputs/peta_karhutla.png)
+Lokasi hasil setelah pengolahan nasional: `outputs/peta_karhutla.png`.
 
 ### Contoh peta provinsi: Sulawesi Tenggara
 
 Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang merujuk nama wilayah pada legenda. Angka dalam kurung adalah jumlah deteksi; warna wilayah semakin gelap jika jumlah deteksi semakin banyak dalam provinsi tersebut.
 
-![Peta titik panas Sulawesi Tenggara beserta batas dan jumlah deteksi per kabupaten kota](outputs/provinsi/74_sulawesi_tenggara.png)
+Lokasi hasil setelah sel Sulawesi Tenggara dijalankan: `outputs/provinsi/74_sulawesi_tenggara.png`.
 
-[Lihat peta dan tabel seluruh 38 provinsi](outputs/provinsi/).
+Jalankan seluruh sel provinsi pada bagian 9 untuk menghasilkan 38 PNG beserta tabelnya di `outputs/provinsi/`.
 
 ## Identifikasi tahun dan periode data
 
@@ -67,7 +69,7 @@ Sumber dan parameter ketujuh folder diperiksa langsung melalui metadata pada bag
 
 Choropleth GNW memakai tahun terakhir dalam CSV, yaitu 2025. ID wilayah dicocokkan melalui `adm1_metadata.csv`. Untuk menyesuaikan 34 wilayah statistik, geometri Papua Selatan, Papua Tengah, dan Papua Pegunungan digabung dengan Papua; Papua Barat Daya digabung dengan Papua Barat. Penggabungan ini merupakan pendekatan visualisasi dengan batas tersedia dan perlu mempertimbangkan perbedaan batas historis.
 
-![Choropleth kehilangan tutupan pohon akibat kebakaran tahun 2025](outputs/peta_kehilangan_pohon_gnw.png)
+Lokasi hasil setelah bagian 10 dijalankan: `outputs/peta_kehilangan_pohon_gnw.png`.
 
 ## Memperbarui titik panas
 
@@ -76,6 +78,30 @@ python scripts/unduh_firms.py
 ```
 
 Skrip mengunduh CSV resmi NOAA-20 24 jam, menyimpan sumber regional, membuat subset Indonesia berdasarkan batas provinsi, dan mencatat URL serta tanggal pengunduhan UTC dalam `All Dataset/firms_noaa20_indonesia_24h_metadata.json`. Periksa rentang `acq_date` sesudah unduh, lalu jalankan Run All. Snapshot bawaan saat pembaruan ini diunduh 13 November 2026 dan mencakup pengamatan 12–13 November 2026.
+
+## Struktur folder
+
+```text
+.
+├── peta_karhutla_indonesia_38_provinsi.ipynb
+├── README.md
+├── Readme.txt
+├── requirements.txt
+├── scripts/
+│   ├── peta_karhutla.py
+│   ├── analisis_provinsi.py
+│   ├── analisis_gnw.py
+│   ├── elemen_peta.py
+│   └── unduh_firms.py
+├── All Dataset/
+│   └── ... data sumber dan tujuh folder statistik GNW
+└── outputs/
+    ├── ... peta nasional, CSV, GeoJSON, dan validasi.json
+    └── provinsi/
+        └── ... PNG dan CSV masing-masing provinsi
+```
+
+Notebook tetap berada di folder utama. Semua file Python berada di `scripts/`. Skrip unduhan dan pengolahan nasional menentukan lokasi data serta output dari folder utama proyek.
 
 ## Lokasi dataset
 
@@ -103,9 +129,10 @@ All Dataset/
 | `scripts/peta_karhutla.py` | Pengolahan nasional, penggabungan data, peta, dan laporan validasi |
 | `scripts/analisis_provinsi.py` | Pencocokan kabupaten/kota dan peta tiap provinsi |
 | `scripts/unduh_firms.py` | Unduhan resmi NASA 24 jam dan pencatatan provenance |
-| `scripts/elemen_peta.py` | Panah utara dan label CRS pada peta |
+| `scripts/elemen_peta.py` | Panah utara berlabel **N** dan label CRS pada seluruh peta |
 | `scripts/analisis_gnw.py` | Choropleth kehilangan tutupan pohon akibat kebakaran |
-| `All Dataset/fire_nrt_J1V-C2_840207.csv` | Deteksi titik panas VIIRS |
+| `All Dataset/firms_noaa20_indonesia_24h.csv` | Snapshot titik panas VIIRS yang digunakan secara bawaan |
+| `All Dataset/fire_nrt_J1V-C2_840207.csv` | Arsip awal deteksi titik panas VIIRS |
 | `All Dataset/luas-karhutla-provinsi.xlsx` | Luas karhutla per provinsi, kolom 2018–2026 |
 | `All Dataset/provinsi.geojson` | Batas 38 provinsi |
 | `All Dataset/kab_kota.geojson` | Batas 514 kabupaten/kota |
@@ -178,7 +205,9 @@ Setiap sel menampilkan:
 
 Warna kabupaten semakin gelap jika jumlah deteksi cocok semakin banyak. Skala warna mengikuti data tiap provinsi sehingga warna antar-peta tidak bisa dibandingkan langsung. Provinsi tanpa deteksi tetap ditampilkan dengan keterangan sesuai tanggal data.
 
-Peta dan tabel disimpan di `outputs/provinsi/`:
+Peta dan tabel disimpan di `outputs/provinsi/`. Nama provinsi pada file menggunakan huruf kecil dan garis bawah, misalnya `74_sulawesi_tenggara.png`. Label panah utara menggunakan **N** (North).
+
+File yang dihasilkan setiap sel:
 
 - `<kode>_<nama_provinsi>.png`: peta.
 - `<kode>_<nama_provinsi>_ringkasan.csv`: jumlah deteksi per kabupaten/kota.
@@ -218,7 +247,7 @@ Contoh angka Konawe (49) menjelaskan hasil snapshot awal 7 November 2026. Saat d
 
 Menjalankan ulang pengolahan memperbarui hasil terkait. Data sumber tidak diubah.
 
-Folder `outputs/` ikut disimpan di repositori GitHub agar peta dan tabel dapat dilihat atau diunduh tanpa menjalankan notebook. Hasil yang tersimpan merupakan snapshot pengolahan sebelumnya. Setelah mengubah data atau parameter, jalankan ulang analisis lalu commit hasil yang diperbarui.
+Hasil yang sudah tersimpan di `outputs/` merupakan snapshot pengolahan sebelumnya. Jika PNG atau hasil provinsi belum tersedia, jalankan **Run All** untuk membuatnya. Setelah mengubah data, parameter, atau elemen peta seperti label **N**, jalankan ulang analisis untuk memperbarui hasil. Jika hasil akan dibagikan melalui GitHub, sertakan file output yang diperlukan dalam commit.
 
 ## Metode dan interpretasi
 
@@ -237,8 +266,8 @@ Satuan luas pada situs SIPONGI adalah hektare (ha), tetapi tanggal pemutakhiran 
 - Notebook memuat URL NASA FIRMS, SIPONGI KEMENHUT, sumber batas administrasi, dan Global Nature Watch.
 - CSV deteksi memuat latitude dan longitude, dengan CRS WGS 84 / EPSG:4326.
 - Peta nasional memakai choropleth jumlah deteksi dan titik pengamatan, serta panel luas SIPONGI.
-- Peta nasional, provinsi, dan GNW dilengkapi judul, legenda/colorbar, panah utara, dan label CRS.
-- PNG nasional tersedia di `outputs/peta_karhutla.png`, PNG GNW di `outputs/peta_kehilangan_pohon_gnw.png`, dan 38 PNG provinsi di `outputs/provinsi/`.
+- Kode peta nasional, provinsi, dan GNW menyertakan judul, legenda/colorbar, panah utara **N**, dan label CRS.
+- Setelah seluruh notebook dijalankan, PNG nasional disimpan di `outputs/peta_karhutla.png`, PNG GNW di `outputs/peta_kehilangan_pohon_gnw.png`, dan 38 PNG provinsi di `outputs/provinsi/`.
 
 ## Referensi metode
 
