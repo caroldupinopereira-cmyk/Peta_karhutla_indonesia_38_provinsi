@@ -10,13 +10,13 @@ Jalankan **Run All** pada notebook untuk membuat ulang peta. File PNG dan tabel 
 
 Panel atas menampilkan deteksi titik panas periode **12–13 November 2026 (UTC)**. Panel bawah menampilkan luas karhutla dari **kolom tahun 2026** pada Excel. Sumber SIPONGI menyajikan luas dalam **hektare (ha)**; peta nasional telah diperbarui menggunakan label ha.
 
-Lokasi hasil setelah pengolahan nasional: `outputs/peta_karhutla.png`.
+![Peta nasional titik panas dan luas karhutla Indonesia](outputs/peta_karhutla.png)
 
 ### Contoh peta provinsi: Sulawesi Tenggara
 
 Peta menampilkan lokasi titik panas, batas kabupaten/kota, serta nomor yang merujuk nama wilayah pada legenda. Angka dalam kurung adalah jumlah deteksi; warna wilayah semakin gelap jika jumlah deteksi semakin banyak dalam provinsi tersebut.
 
-Lokasi hasil setelah sel Sulawesi Tenggara dijalankan: `outputs/provinsi/74_sulawesi_tenggara.png`.
+![Peta titik panas Sulawesi Tenggara](outputs/provinsi/74_sulawesi_tenggara.png)
 
 Jalankan seluruh sel provinsi pada bagian 9 untuk menghasilkan 38 PNG beserta tabelnya di `outputs/provinsi/`.
 
@@ -69,7 +69,7 @@ Sumber dan parameter ketujuh folder diperiksa langsung melalui metadata pada bag
 
 Choropleth GNW memakai tahun terakhir dalam CSV, yaitu 2025. ID wilayah dicocokkan melalui `adm1_metadata.csv`. Untuk menyesuaikan 34 wilayah statistik, geometri Papua Selatan, Papua Tengah, dan Papua Pegunungan digabung dengan Papua; Papua Barat Daya digabung dengan Papua Barat. Penggabungan ini merupakan pendekatan visualisasi dengan batas tersedia dan perlu mempertimbangkan perbedaan batas historis.
 
-Lokasi hasil setelah bagian 10 dijalankan: `outputs/peta_kehilangan_pohon_gnw.png`.
+![Peta kehilangan tutupan pohon akibat kebakaran tahun 2025](outputs/peta_kehilangan_pohon_gnw.png)
 
 ## Memperbarui titik panas
 
